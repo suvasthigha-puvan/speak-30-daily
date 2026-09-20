@@ -1,0 +1,230 @@
+{
+  "meta": {
+    "project": "Speak15",
+    "version": 1,
+    "total_days": 30,
+    "note": "Edit this file (or host it on GitHub and set VITE_CURRICULUM_URL) to update the course without touching the UI."
+  },
+  "days": [
+    {
+      "day": 1,
+      "week": 1,
+      "title": "Introducing Yourself Clearly",
+      "topic": "Self-introduction and basic articulation warm-up",
+      "objective": "Introduce yourself in a clear, well-paced 30-45 second self-introduction with no more than 2 filler words.",
+      "estimated_minutes": 15,
+      "warmup": {
+        "type": "breathing_and_mouth_warmup",
+        "instructions": "Take 4 slow breaths (inhale 4s, hold 2s, exhale 6s). Then loosen your jaw by opening your mouth wide 5 times and rolling your tongue around your lips 5 times each direction.",
+        "duration_seconds": 60
+      },
+      "articulation_exercise": {
+        "focus_sound": "S / SH",
+        "drill_text": "She sells seashells by the seashore.",
+        "instructions": "Say the drill sentence slowly 3 times, then at normal speed 3 times. Focus on crisp S and SH sounds without slurring.",
+        "duration_seconds": 90
+      },
+      "mini_lesson": {
+        "title": "The 3-Part Self-Introduction",
+        "content": "A clear self-introduction has three parts: who you are, what you do, and one personal or interesting detail. Keeping it to three short sentences prevents rambling and filler words.",
+        "key_points": [
+          "Part 1: Name and a brief identity (\"I'm Sam, a marketing analyst.\")",
+          "Part 2: What you do or are working on right now",
+          "Part 3: One personal detail that makes you memorable"
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "articulate",
+          "meaning": "able to express ideas clearly and effectively",
+          "pronunciation": "ar-TIK-yuh-lit",
+          "example_sentence": "She gave an articulate answer to a difficult question.",
+          "similar_words": ["clear", "eloquent", "fluent"]
+        },
+        {
+          "word": "concise",
+          "meaning": "giving information in a few words; brief but complete",
+          "pronunciation": "kuhn-SAHYS",
+          "example_sentence": "Try to keep your introduction concise, around 30 seconds.",
+          "similar_words": ["brief", "succinct", "to-the-point"]
+        },
+        {
+          "word": "filler word",
+          "meaning": "a sound or word (um, uh, like) used to pause without meaning to add content",
+          "pronunciation": "FIL-er word",
+          "example_sentence": "Try to notice every time you use a filler word today.",
+          "similar_words": ["hesitation marker", "verbal pause"]
+        }
+      ],
+      "phrases": [
+        "Nice to meet you, I'm ___.",
+        "I currently work as ___ / I'm currently studying ___.",
+        "Something people don't usually know about me is ___.",
+        "I'm looking forward to improving my speaking over the next 30 days."
+      ],
+      "speaking_prompt": {
+        "prompt": "Record a 30-45 second self-introduction using the 3-part structure from today's mini lesson.",
+        "prep_seconds": 30,
+        "response_seconds": 45,
+        "tips": [
+          "Say your name clearly and pause briefly after it",
+          "Use at least one word from today's vocabulary list",
+          "Aim for 0-2 filler words"
+        ]
+      },
+      "conversation": {
+        "opening_question": "That was a great introduction! What made you decide to start this 30-day speaking practice?",
+        "follow_up_questions": [
+          "What part of speaking clearly do you find hardest right now?",
+          "Is there a specific situation, like meetings or interviews, where you most want to sound clearer?",
+          "How would you describe your speaking confidence on a scale of 1 to 10 today?"
+        ]
+      },
+      "feedback_criteria": [
+        "clarity_score (pronunciation crispness on S/SH sounds from the drill)",
+        "pace_wpm (target 120-150 words per minute)",
+        "filler_word_count (target 0-2)",
+        "structure_check (did the response include identity, activity, and a personal detail)",
+        "duration_check (30-45 seconds)"
+      ],
+      "retry_instructions": "If your filler-word count was above 2 or the response ran under 20 seconds, listen to your recording once, then retry focusing only on the 3-part structure — don't worry about sounding perfect."
+    },
+    {
+      "day": 2,
+      "week": 1,
+      "title": "Slowing Your Pace",
+      "topic": "Pacing, pausing and breath control",
+      "objective": "Deliver a 45-second answer at a steady 120-150 words per minute with at least three intentional pauses.",
+      "estimated_minutes": 15,
+      "warmup": {
+        "type": "breathing",
+        "instructions": "Box breathing: inhale 4s, hold 4s, exhale 4s, hold 4s. Repeat 4 rounds while keeping your shoulders relaxed.",
+        "duration_seconds": 60
+      },
+      "articulation_exercise": {
+        "focus_sound": "T / D",
+        "drill_text": "Two tired toads tried to trot to town.",
+        "instructions": "Read the drill at half speed, tapping the table on every T and D, then repeat at normal speed.",
+        "duration_seconds": 90
+      },
+      "mini_lesson": {
+        "title": "The Power of the Pause",
+        "content": "Pauses are not empty space — they replace filler words and give the listener time to absorb your idea. A one-second pause feels long to you and natural to everyone else.",
+        "key_points": [
+          "Pause after your main point, not in the middle of it",
+          "Replace every 'um' with silence",
+          "Breathe at punctuation, not mid-sentence"
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "cadence",
+          "meaning": "the rhythm and flow of the way you speak",
+          "pronunciation": "KAY-dnss",
+          "example_sentence": "His calm cadence made the presentation easy to follow.",
+          "similar_words": ["rhythm", "tempo", "flow"]
+        },
+        {
+          "word": "deliberate",
+          "meaning": "done slowly and on purpose, with care",
+          "pronunciation": "dih-LIB-er-it",
+          "example_sentence": "She spoke in a deliberate way so every word landed.",
+          "similar_words": ["measured", "intentional", "unhurried"]
+        }
+      ],
+      "phrases": [
+        "Let me take a moment on that.",
+        "The main point here is ___.",
+        "To put it simply, ___."
+      ],
+      "speaking_prompt": {
+        "prompt": "Describe your morning routine for 45 seconds, pausing for a full second after each step.",
+        "prep_seconds": 20,
+        "response_seconds": 45,
+        "tips": ["Count one full second in every pause", "Keep sentences under 15 words"]
+      },
+      "conversation": {
+        "opening_question": "Nice pacing. Where in your day do you tend to speak too fast?",
+        "follow_up_questions": [
+          "What usually makes you rush — nerves, or a short meeting?",
+          "How did the one-second pause feel to you?"
+        ]
+      },
+      "feedback_criteria": [
+        "pace_wpm (target 120-150 words per minute)",
+        "pause_count (at least 3 clear pauses)",
+        "filler_word_count (target 0-2)",
+        "duration_check (40-50 seconds)"
+      ],
+      "retry_instructions": "If you rushed, retry with only three sentences and a long pause between each."
+    },
+    {
+      "day": 3,
+      "week": 1,
+      "title": "Cutting Filler Words",
+      "topic": "Filler-word awareness in everyday explanations",
+      "objective": "Explain a familiar process for 60 seconds using no more than one filler word.",
+      "estimated_minutes": 15,
+      "warmup": {
+        "type": "humming",
+        "instructions": "Hum a steady note for 10 seconds, five times, sliding gently from low to high pitch to open up resonance.",
+        "duration_seconds": 60
+      },
+      "articulation_exercise": {
+        "focus_sound": "R / L",
+        "drill_text": "Really rural lorry drivers rarely rally.",
+        "instructions": "Repeat the drill 5 times, exaggerating the R and L tongue positions.",
+        "duration_seconds": 90
+      },
+      "mini_lesson": {
+        "title": "Catch, Don't Punish",
+        "content": "Filler words disappear through awareness, not willpower. Noticing them as they happen retrains the habit faster than trying to force perfect speech.",
+        "key_points": [
+          "Notice your personal filler (um, like, you know, basically)",
+          "Swap it for a closed mouth and a breath",
+          "Slower speech naturally produces fewer fillers"
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "succinct",
+          "meaning": "expressed clearly in very few words",
+          "pronunciation": "suhk-SINKT",
+          "example_sentence": "Her succinct summary saved the meeting ten minutes.",
+          "similar_words": ["concise", "compact", "crisp"]
+        },
+        {
+          "word": "verbose",
+          "meaning": "using more words than needed",
+          "pronunciation": "ver-BOHSS",
+          "example_sentence": "The verbose answer buried the useful part.",
+          "similar_words": ["wordy", "long-winded", "rambling"]
+        }
+      ],
+      "phrases": [
+        "In short, ___.",
+        "The first step is ___, and then ___.",
+        "That's really all there is to it."
+      ],
+      "speaking_prompt": {
+        "prompt": "Explain how to make your favourite drink or dish, step by step, for 60 seconds.",
+        "prep_seconds": 20,
+        "response_seconds": 60,
+        "tips": ["Number your steps out loud", "Stop and breathe instead of saying 'um'"]
+      },
+      "conversation": {
+        "opening_question": "Clear steps! Which filler word do you catch yourself using most?",
+        "follow_up_questions": [
+          "When does it show up most — under pressure or when you're unsure?",
+          "What would you like to say instead of it?"
+        ]
+      },
+      "feedback_criteria": [
+        "filler_word_count (target 0-1)",
+        "structure_check (clear sequential steps)",
+        "duration_check (55-65 seconds)"
+      ],
+      "retry_instructions": "Listen back and count your fillers, then retry the same explanation in three steps only."
+    }
+  ]
+}
