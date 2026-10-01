@@ -50,6 +50,13 @@ export const CURRICULUM_URL =
   (import.meta.env["VITE_CURRICULUM_URL"] as string | undefined) ?? "/data/curriculum.json";
 
 async function fetchCurriculum(): Promise<Curriculum> {
+  // Relative URLs can't be fetched during server rendering; read the bundled copy there.
+  if (typeof window === "undefined" && CURRICULUM_URL.startsWith("/")) {
+    const mod = await import("../../public/data/curriculum.json");
+    const copy = JSON.parse(JSON.stringify(mod.default)) as Curriculum;
+    copy.days.sort((a, b) => a.day - b.day);
+    return copy;
+  }
   const res = await fetch(CURRICULUM_URL, { headers: { accept: "application/json" } });
   if (!res.ok) throw new Error(`Could not load the curriculum (${res.status})`);
   const data = (await res.json()) as Curriculum;
@@ -68,7 +75,7 @@ export function totalDays(c: Curriculum) {
 }
 
 export function dayByNumber(c: Curriculum, day: number) {
-  return c.days.find((d) => d.day === day) ?? c.days[0];
+  return (c.days.find((d) => d.day === day) ?? c.days[0])!;
 }
 
 export const STEP_IDS = [

@@ -49,7 +49,7 @@ function PracticePage() {
 
   const [stepIndex, setStepIndex] = useState(0);
   const [spokenSeconds, setSpokenSeconds] = useState(0);
-  const step = STEP_IDS[stepIndex];
+  const step = STEP_IDS[stepIndex]!;
 
   const scores = useMemo(() => {
     const base = score(spokenSeconds, day.speaking_prompt.response_seconds);
