@@ -75,7 +75,7 @@ export function totalDays(c: Curriculum) {
 }
 
 export function dayByNumber(c: Curriculum, day: number) {
-  return c.days.find((d) => d.day === day) ?? c.days[0];
+  return (c.days.find((d) => d.day === day) ?? c.days[0])!;
 }
 
 export const STEP_IDS = [

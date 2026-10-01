@@ -6,7 +6,7 @@ type Msg = { role: "coach" | "you"; text: string };
 
 export function ConversationPanel({ conversation }: { conversation: CurriculumDay["conversation"] }) {
   const questions = [conversation.opening_question, ...conversation.follow_up_questions];
-  const [messages, setMessages] = useState<Msg[]>([{ role: "coach", text: questions[0] }]);
+  const [messages, setMessages] = useState<Msg[]>([{ role: "coach", text: questions[0]! }]);
   const [qIndex, setQIndex] = useState(0);
   const [recording, setRecording] = useState(false);
   const [started, setStarted] = useState(0);
@@ -22,7 +22,7 @@ export function ConversationPanel({ conversation }: { conversation: CurriculumDa
     const secs = Math.max(1, Math.round((Date.now() - started) / 1000));
     const next = qIndex + 1;
     const reply: Msg[] = [{ role: "you", text: `🎙 Voice answer · ${secs}s` }];
-    if (next < questions.length) reply.push({ role: "coach", text: questions[next] });
+    if (next < questions.length) reply.push({ role: "coach", text: questions[next]! });
     else reply.push({ role: "coach", text: "Thanks — great conversation. You can move on to feedback." });
     setMessages((m) => [...m, ...reply]);
     setQIndex(next);
