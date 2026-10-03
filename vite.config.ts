@@ -20,12 +20,14 @@ export default defineConfig({
         registerType: "autoUpdate",
         injectRegister: null, // registration happens only in src/lib/pwa-register.ts
         filename: "sw.js",
-        // nitro deploys .output/public to Cloudflare; the default (dist/) is never served
-        outDir: ".output/public",
+        // must match nitro's public dir: dist on Cloudflare Pages, .output/public otherwise
+        outDir: process.env.CF_PAGES ? "dist" : ".output/public",
         manifest: false, // we serve public/manifest.webmanifest ourselves
         devOptions: { enabled: false }, // never emit a SW in dev/preview
         workbox: {
           globPatterns: ["**/*.{js,css,json,png,webmanifest}"],
+          // the Pages server bundle lives in the same dir but is not a fetchable URL
+          globIgnores: ["_worker.js/**", "nitro.json", "_routes.json"],
           dontCacheBustURLsMatching: /^assets\//,
           navigateFallback: null, // pages are server-rendered, there is no index.html to fall back to
           runtimeCaching: [
