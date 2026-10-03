@@ -1,6 +1,6 @@
 {
   "meta": {
-    "project": "Speak15",
+    "project": "Speak30",
     "version": 1,
     "total_days": 30,
     "note": "Edit this file (or host it on GitHub and set VITE_CURRICULUM_URL) to update the course without touching the UI."
@@ -12,7 +12,7 @@
       "title": "Introducing Yourself Clearly",
       "topic": "Self-introduction and basic articulation warm-up",
       "objective": "Introduce yourself in a clear, well-paced 30-45 second self-introduction with no more than 2 filler words.",
-      "estimated_minutes": 15,
+      "estimated_minutes": 30,
       "warmup": {
         "type": "breathing_and_mouth_warmup",
         "instructions": "Take 4 slow breaths (inhale 4s, hold 2s, exhale 6s). Then loosen your jaw by opening your mouth wide 5 times and rolling your tongue around your lips 5 times each direction.",
@@ -95,7 +95,7 @@
       "title": "Slowing Your Pace",
       "topic": "Pacing, pausing and breath control",
       "objective": "Deliver a 45-second answer at a steady 120-150 words per minute with at least three intentional pauses.",
-      "estimated_minutes": 15,
+      "estimated_minutes": 30,
       "warmup": {
         "type": "breathing",
         "instructions": "Box breathing: inhale 4s, hold 4s, exhale 4s, hold 4s. Repeat 4 rounds while keeping your shoulders relaxed.",
@@ -164,7 +164,7 @@
       "title": "Cutting Filler Words",
       "topic": "Filler-word awareness in everyday explanations",
       "objective": "Explain a familiar process for 60 seconds using no more than one filler word.",
-      "estimated_minutes": 15,
+      "estimated_minutes": 30,
       "warmup": {
         "type": "humming",
         "instructions": "Hum a steady note for 10 seconds, five times, sliding gently from low to high pitch to open up resonance.",

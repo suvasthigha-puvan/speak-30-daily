@@ -1,10 +1,10 @@
 # Speak 15 Daily
 
-Build a modern, attractive responsive web app called Speak15. Here I have added only one day JSON as example. 
+Build a modern, attractive responsive web app called Speak30. Here I have added only one day JSON as example. 
 
 Purpose
 
-Speak15 is a 30-day articulation and speaking practice app designed for a 15-minute daily practice routine.
+Speak30 is a 30-day articulation and speaking practice app designed for a 30-minute daily practice routine.
 
 The app should feel like a combination of a language-learning app + personal speaking coach + fitness tracker, not like a traditional English-learning website.
 
@@ -22,7 +22,7 @@ Today's topic
 
 Today's objective
 
-15-minute estimated duration
+30-minute estimated duration
 
 Large Start Today's Practice button
 
@@ -154,7 +154,7 @@ Then your GitHub structure can be very simple
 
 I'd recommend:
 
-speak15/
+speak30/
 │
 ├── src/
 │   ├── components/

@@ -26,7 +26,7 @@ export function AppShell({ children }: { children: ReactNode }) {
             <div className="grid size-9 place-items-center rounded-xl gradient-brand font-display text-base font-bold text-brand-foreground shadow-lg shadow-brand/30">
               S
             </div>
-            <span className="font-display text-xl font-bold tracking-tight">Speak15</span>
+            <span className="font-display text-xl font-bold tracking-tight">Speak30</span>
           </Link>
 
           <nav className="order-3 flex w-full items-center gap-1 overflow-x-auto rounded-full bg-background/60 p-1 ring-1 ring-background/70 backdrop-blur-md md:order-none md:w-auto">

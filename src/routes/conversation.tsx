@@ -8,9 +8,9 @@ import { useProgress } from "@/lib/progress";
 export const Route = createFileRoute("/conversation")({
   head: () => ({
     meta: [
-      { title: "Conversation Practice — Speak15" },
+      { title: "Conversation Practice — Speak30" },
       { name: "description", content: "Answer spoken questions and get follow-ups from your speaking coach." },
-      { property: "og:title", content: "Conversation Practice — Speak15" },
+      { property: "og:title", content: "Conversation Practice — Speak30" },
       { property: "og:description", content: "Speak, then get follow-up questions from your coach." },
     ],
   }),

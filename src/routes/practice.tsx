@@ -18,16 +18,16 @@ import { useProgress } from "@/lib/progress";
 export const Route = createFileRoute("/practice")({
   head: () => ({
     meta: [
-      { title: "Daily Practice — Speak15" },
+      { title: "Daily Practice — Speak30" },
       {
         name: "description",
         content:
           "Move through today's warm-up, articulation drill, mini lesson, vocabulary, speaking challenge and feedback.",
       },
-      { property: "og:title", content: "Daily Practice — Speak15" },
+      { property: "og:title", content: "Daily Practice — Speak30" },
       {
         property: "og:description",
-        content: "Your guided 15-minute speaking session, one step at a time.",
+        content: "Your guided 30-minute speaking session, one step at a time.",
       },
     ],
   }),
