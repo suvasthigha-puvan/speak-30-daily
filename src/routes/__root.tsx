@@ -78,15 +78,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Speak15" },
-      { name: "description", content: "A 30-day, 15-minute daily speaking coach." },
+      { title: "Speak30" },
+      { name: "description", content: "A 30-day, 30-minute daily speaking coach." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "theme-color", content: "#4f46e5" },
       { name: "mobile-web-app-capable", content: "yes" },
       { name: "apple-mobile-web-app-capable", content: "yes" },
       { name: "apple-mobile-web-app-status-bar-style", content: "default" },
-      { name: "apple-mobile-web-app-title", content: "Speak15" },
+      { name: "apple-mobile-web-app-title", content: "Speak30" },
     ],
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },

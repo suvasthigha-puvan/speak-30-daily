@@ -9,9 +9,9 @@ import { useProgress } from "@/lib/progress";
 export const Route = createFileRoute("/words")({
   head: () => ({
     meta: [
-      { title: "My Words — Speak15" },
+      { title: "My Words — Speak30" },
       { name: "description", content: "Your saved vocabulary, with speaking prompts to put each word to use." },
-      { property: "og:title", content: "My Words — Speak15" },
+      { property: "og:title", content: "My Words — Speak30" },
       { property: "og:description", content: "Practise your saved words out loud." },
     ],
   }),

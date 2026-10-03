@@ -9,13 +9,13 @@ import { useProgress } from "@/lib/progress";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Speak15 — Your 15-minute daily speaking practice" },
+      { title: "Speak30 — Your 30-minute daily speaking practice" },
       {
         name: "description",
         content:
-          "Speak15 is a 30-day articulation coach: a 15-minute daily session with warm-ups, drills, vocabulary and spoken challenges.",
+          "Speak30 is a 30-day articulation coach: a 30-minute daily session with warm-ups, drills, vocabulary and spoken challenges.",
       },
-      { property: "og:title", content: "Speak15 — Your 15-minute daily speaking practice" },
+      { property: "og:title", content: "Speak30 — Your 30-minute daily speaking practice" },
       {
         property: "og:description",
         content: "A 30-day speaking coach with daily drills, recordings and progress tracking.",
