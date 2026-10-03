@@ -12,6 +12,8 @@ import { useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
+import { registerServiceWorker } from "../lib/pwa-register";
+import { InstallPrompt } from "../components/InstallPrompt";
 
 function NotFoundComponent() {
   return (
@@ -127,10 +129,15 @@ function RootShell({ children }: { children: ReactNode }) {
 function RootComponent() {
   const { queryClient } = Route.useRouteContext();
 
+  useEffect(() => {
+    void registerServiceWorker();
+  }, []);
+
   return (
     <QueryClientProvider client={queryClient}>
       {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
       <Outlet />
+      <InstallPrompt />
     </QueryClientProvider>
   );
 }
