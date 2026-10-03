@@ -20,10 +20,14 @@ export default defineConfig({
         registerType: "autoUpdate",
         injectRegister: null, // registration happens only in src/lib/pwa-register.ts
         filename: "sw.js",
+        // nitro deploys .output/public to Cloudflare; the default (dist/) is never served
+        outDir: ".output/public",
         manifest: false, // we serve public/manifest.webmanifest ourselves
         devOptions: { enabled: false }, // never emit a SW in dev/preview
         workbox: {
-          navigateFallbackDenylist: [/^\/~oauth/],
+          globPatterns: ["**/*.{js,css,json,png,webmanifest}"],
+          dontCacheBustURLsMatching: /^assets\//,
+          navigateFallback: null, // pages are server-rendered, there is no index.html to fall back to
           runtimeCaching: [
             {
               // HTML navigations: always try the network first
@@ -33,11 +37,17 @@ export default defineConfig({
             },
             {
               // Same-origin hashed build assets: cache-first is safe
-              urlPattern: ({ url, request }: { url: URL; request: Request }) =>
-                url.origin === self.location.origin && /assets\/.+\.[a-f0-9]{8,}\./i.test(url.pathname) ||
-                (url.origin === self.location.origin && request.destination !== "document"),
+              urlPattern: ({ url }: { url: URL }) =>
+                url.origin === self.location.origin && url.pathname.startsWith("/assets/"),
               handler: "CacheFirst",
               options: { cacheName: "speak30-assets" },
+            },
+            {
+              // Other same-origin files (unhashed): serve cached, refresh in the background
+              urlPattern: ({ url, request }: { url: URL; request: Request }) =>
+                url.origin === self.location.origin && request.destination !== "document",
+              handler: "StaleWhileRevalidate",
+              options: { cacheName: "speak30-static" },
             },
           ],
         },
