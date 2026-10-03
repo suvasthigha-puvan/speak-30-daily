@@ -1,9 +1,8 @@
 {
   "meta": {
-    "project": "Speak30",
+    "project": "Speak15",
     "version": 1,
-    "total_days": 30,
-    "note": "Edit this file (or host it on GitHub and set VITE_CURRICULUM_URL) to update the course without touching the UI."
+    "total_days": 30
   },
   "days": [
     {
@@ -12,30 +11,30 @@
       "title": "Introducing Yourself Clearly",
       "topic": "Self-introduction and basic articulation warm-up",
       "objective": "Introduce yourself in a clear, well-paced 30-45 second self-introduction with no more than 2 filler words.",
-      "estimated_minutes": 30,
+      "estimated_minutes": 15,
       "warmup": {
         "type": "breathing_and_mouth_warmup",
-        "instructions": "Take 4 slow breaths (inhale 4s, hold 2s, exhale 6s). Then loosen your jaw by opening your mouth wide 5 times and rolling your tongue around your lips 5 times each direction.",
+        "instructions": "Take 4 slow breaths (inhale 4s, hold 2s, exhale 6s). Open your mouth wide 5 times and roll your tongue around your lips 5 times each direction.",
         "duration_seconds": 60
       },
       "articulation_exercise": {
         "focus_sound": "S / SH",
         "drill_text": "She sells seashells by the seashore.",
-        "instructions": "Say the drill sentence slowly 3 times, then at normal speed 3 times. Focus on crisp S and SH sounds without slurring.",
+        "instructions": "Say the drill sentence slowly 3 times, then at normal speed 3 times, keeping S and SH crisp.",
         "duration_seconds": 90
       },
       "mini_lesson": {
         "title": "The 3-Part Self-Introduction",
-        "content": "A clear self-introduction has three parts: who you are, what you do, and one personal or interesting detail. Keeping it to three short sentences prevents rambling and filler words.",
+        "content": "A clear self-introduction has three parts: who you are, what you do, and one personal detail. Keeping it to three short sentences prevents rambling and filler words.",
         "key_points": [
-          "Part 1: Name and a brief identity (\"I'm Sam, a marketing analyst.\")",
+          "Part 1: Name and a brief identity",
           "Part 2: What you do or are working on right now",
           "Part 3: One personal detail that makes you memorable"
         ]
       },
       "vocabulary": [
         {
-          "word": "articulate",
+          "word": "articulate (adj.)",
           "meaning": "able to express ideas clearly and effectively",
           "pronunciation": "ar-TIK-yuh-lit",
           "example_sentence": "She gave an articulate answer to a difficult question.",
@@ -47,184 +46,1622 @@
           "pronunciation": "kuhn-SAHYS",
           "example_sentence": "Try to keep your introduction concise, around 30 seconds.",
           "similar_words": ["brief", "succinct", "to-the-point"]
-        },
-        {
-          "word": "filler word",
-          "meaning": "a sound or word (um, uh, like) used to pause without meaning to add content",
-          "pronunciation": "FIL-er word",
-          "example_sentence": "Try to notice every time you use a filler word today.",
-          "similar_words": ["hesitation marker", "verbal pause"]
         }
-      ],
-      "phrases": [
-        "Nice to meet you, I'm ___.",
-        "I currently work as ___ / I'm currently studying ___.",
-        "Something people don't usually know about me is ___.",
-        "I'm looking forward to improving my speaking over the next 30 days."
       ],
       "speaking_prompt": {
         "prompt": "Record a 30-45 second self-introduction using the 3-part structure from today's mini lesson.",
         "prep_seconds": 30,
         "response_seconds": 45,
-        "tips": [
-          "Say your name clearly and pause briefly after it",
-          "Use at least one word from today's vocabulary list",
-          "Aim for 0-2 filler words"
-        ]
+        "tips": "Say your name clearly, pause briefly after it, and aim for 0-2 filler words."
       },
       "conversation": {
         "opening_question": "That was a great introduction! What made you decide to start this 30-day speaking practice?",
         "follow_up_questions": [
           "What part of speaking clearly do you find hardest right now?",
-          "Is there a specific situation, like meetings or interviews, where you most want to sound clearer?",
-          "How would you describe your speaking confidence on a scale of 1 to 10 today?"
+          "Is there a situation, like meetings or interviews, where you most want to sound clearer?"
         ]
       },
-      "feedback_criteria": [
-        "clarity_score (pronunciation crispness on S/SH sounds from the drill)",
-        "pace_wpm (target 120-150 words per minute)",
-        "filler_word_count (target 0-2)",
-        "structure_check (did the response include identity, activity, and a personal detail)",
-        "duration_check (30-45 seconds)"
-      ],
-      "retry_instructions": "If your filler-word count was above 2 or the response ran under 20 seconds, listen to your recording once, then retry focusing only on the 3-part structure — don't worry about sounding perfect."
+      "feedback_criteria": ["Clarity on S/SH sounds", "Pace (120-150 WPM)", "Filler word count (0-2)", "3-part structure present", "Duration (30-45s)"],
+      "retry_instructions": "If filler words were above 2 or the response ran under 20 seconds, listen once, then retry focusing only on the 3-part structure."
     },
     {
       "day": 2,
       "week": 1,
-      "title": "Slowing Your Pace",
-      "topic": "Pacing, pausing and breath control",
-      "objective": "Deliver a 45-second answer at a steady 120-150 words per minute with at least three intentional pauses.",
-      "estimated_minutes": 30,
+      "title": "Clear Vowels & Breath Control",
+      "topic": "Vowel clarity and breath support for steady speech",
+      "objective": "Speak a 4-sentence paragraph about your day without running out of breath mid-sentence.",
+      "estimated_minutes": 15,
       "warmup": {
-        "type": "breathing",
-        "instructions": "Box breathing: inhale 4s, hold 4s, exhale 4s, hold 4s. Repeat 4 rounds while keeping your shoulders relaxed.",
+        "type": "breathing_and_vowel_warmup",
+        "instructions": "Take 4 diaphragmatic breaths (hand on stomach, feel it rise). Then say AH-EH-EE-OH-OO slowly, holding each vowel for 2 seconds.",
         "duration_seconds": 60
       },
       "articulation_exercise": {
-        "focus_sound": "T / D",
-        "drill_text": "Two tired toads tried to trot to town.",
-        "instructions": "Read the drill at half speed, tapping the table on every T and D, then repeat at normal speed.",
+        "focus_sound": "Long vowels (OW / OU)",
+        "drill_text": "How now, brown cow, found a flower in the hour.",
+        "instructions": "Say the drill slowly 3 times, exaggerating mouth shape for each vowel, then at normal pace 3 times.",
         "duration_seconds": 90
       },
       "mini_lesson": {
-        "title": "The Power of the Pause",
-        "content": "Pauses are not empty space — they replace filler words and give the listener time to absorb your idea. A one-second pause feels long to you and natural to everyone else.",
+        "title": "Breathing for Longer Sentences",
+        "content": "Running out of breath mid-sentence causes rushed, unclear speech. Breathe from your diaphragm, not your chest, and plan natural pause points at commas.",
         "key_points": [
-          "Pause after your main point, not in the middle of it",
-          "Replace every 'um' with silence",
-          "Breathe at punctuation, not mid-sentence"
+          "Inhale low into the stomach, not high into the shoulders",
+          "Pause briefly at commas to take a small top-up breath",
+          "Never force the last words of a sentence out on empty breath"
         ]
       },
       "vocabulary": [
         {
-          "word": "cadence",
-          "meaning": "the rhythm and flow of the way you speak",
-          "pronunciation": "KAY-dnss",
-          "example_sentence": "His calm cadence made the presentation easy to follow.",
-          "similar_words": ["rhythm", "tempo", "flow"]
+          "word": "diaphragm",
+          "meaning": "the muscle below the lungs used for deep breathing",
+          "pronunciation": "DAHY-uh-fram",
+          "example_sentence": "Breathing from your diaphragm gives you more vocal control.",
+          "similar_words": ["core muscle"]
         },
         {
-          "word": "deliberate",
-          "meaning": "done slowly and on purpose, with care",
-          "pronunciation": "dih-LIB-er-it",
-          "example_sentence": "She spoke in a deliberate way so every word landed.",
-          "similar_words": ["measured", "intentional", "unhurried"]
+          "word": "steady (pace)",
+          "meaning": "consistent and even, without rushing or stalling",
+          "pronunciation": "STED-ee",
+          "example_sentence": "Keep a steady pace so listeners can follow you easily.",
+          "similar_words": ["even", "consistent", "measured"]
         }
       ],
-      "phrases": [
-        "Let me take a moment on that.",
-        "The main point here is ___.",
-        "To put it simply, ___."
-      ],
       "speaking_prompt": {
-        "prompt": "Describe your morning routine for 45 seconds, pausing for a full second after each step.",
+        "prompt": "Describe your typical morning routine in 4 sentences, taking a breath only at the commas or sentence ends.",
         "prep_seconds": 20,
-        "response_seconds": 45,
-        "tips": ["Count one full second in every pause", "Keep sentences under 15 words"]
+        "response_seconds": 40,
+        "tips": "Plan your breath points before you start recording."
       },
       "conversation": {
-        "opening_question": "Nice pacing. Where in your day do you tend to speak too fast?",
+        "opening_question": "Nice and steady! What's one part of your morning routine you'd like to improve?",
         "follow_up_questions": [
-          "What usually makes you rush — nerves, or a short meeting?",
-          "How did the one-second pause feel to you?"
+          "Does your routine change on weekends?",
+          "What helps you wake up feeling more alert?"
         ]
       },
-      "feedback_criteria": [
-        "pace_wpm (target 120-150 words per minute)",
-        "pause_count (at least 3 clear pauses)",
-        "filler_word_count (target 0-2)",
-        "duration_check (40-50 seconds)"
-      ],
-      "retry_instructions": "If you rushed, retry with only three sentences and a long pause between each."
+      "feedback_criteria": ["No mid-sentence breath cut-offs", "Vowel clarity on OW/OU drill", "Even pacing", "Natural pause at commas"],
+      "retry_instructions": "If you gasped mid-sentence, mark where your breath ran out, then retry taking a small breath one word earlier."
     },
     {
       "day": 3,
       "week": 1,
-      "title": "Cutting Filler Words",
-      "topic": "Filler-word awareness in everyday explanations",
-      "objective": "Explain a familiar process for 60 seconds using no more than one filler word.",
-      "estimated_minutes": 30,
+      "title": "Describing Your Daily Routine",
+      "topic": "Sequencing words and T/D consonant clarity",
+      "objective": "Describe a sequence of 3-4 daily activities using clear sequencing words (first, then, after that, finally).",
+      "estimated_minutes": 15,
       "warmup": {
-        "type": "humming",
-        "instructions": "Hum a steady note for 10 seconds, five times, sliding gently from low to high pitch to open up resonance.",
+        "type": "jaw_and_lip_warmup",
+        "instructions": "Open and close your jaw slowly 8 times. Then say 'ba-ba-ba, da-da-da, ta-ta-ta' quickly for 20 seconds.",
         "duration_seconds": 60
       },
       "articulation_exercise": {
-        "focus_sound": "R / L",
-        "drill_text": "Really rural lorry drivers rarely rally.",
-        "instructions": "Repeat the drill 5 times, exaggerating the R and L tongue positions.",
+        "focus_sound": "T / D",
+        "drill_text": "Betty bought a bit of better butter to make the batter better.",
+        "instructions": "Say slowly 3 times focusing on a crisp T and D tap, then at normal speed.",
         "duration_seconds": 90
       },
       "mini_lesson": {
-        "title": "Catch, Don't Punish",
-        "content": "Filler words disappear through awareness, not willpower. Noticing them as they happen retrains the habit faster than trying to force perfect speech.",
+        "title": "Sequencing Words for Clear Stories",
+        "content": "Sequencing words help listeners follow events in order without getting lost. They act as verbal signposts.",
         "key_points": [
-          "Notice your personal filler (um, like, you know, basically)",
-          "Swap it for a closed mouth and a breath",
-          "Slower speech naturally produces fewer fillers"
+          "Use 'first' / 'to begin with' to open a sequence",
+          "Use 'then' / 'after that' / 'next' for middle steps",
+          "Use 'finally' / 'lastly' to close the sequence"
         ]
       },
       "vocabulary": [
         {
-          "word": "succinct",
-          "meaning": "expressed clearly in very few words",
-          "pronunciation": "suhk-SINKT",
-          "example_sentence": "Her succinct summary saved the meeting ten minutes.",
-          "similar_words": ["concise", "compact", "crisp"]
+          "word": "sequence",
+          "meaning": "a particular order in which related events happen",
+          "pronunciation": "SEE-kwuhns",
+          "example_sentence": "Describe the sequence of events in your morning.",
+          "similar_words": ["order", "series", "progression"]
         },
         {
-          "word": "verbose",
-          "meaning": "using more words than needed",
-          "pronunciation": "ver-BOHSS",
-          "example_sentence": "The verbose answer buried the useful part.",
-          "similar_words": ["wordy", "long-winded", "rambling"]
+          "word": "routine",
+          "meaning": "a sequence of actions regularly followed",
+          "pronunciation": "roo-TEEN",
+          "example_sentence": "My evening routine helps me relax before bed.",
+          "similar_words": ["habit", "pattern", "regimen"]
         }
       ],
-      "phrases": [
-        "In short, ___.",
-        "The first step is ___, and then ___.",
-        "That's really all there is to it."
-      ],
       "speaking_prompt": {
-        "prompt": "Explain how to make your favourite drink or dish, step by step, for 60 seconds.",
-        "prep_seconds": 20,
-        "response_seconds": 60,
-        "tips": ["Number your steps out loud", "Stop and breathe instead of saying 'um'"]
+        "prompt": "Describe 3-4 steps of your daily routine using at least three sequencing words.",
+        "prep_seconds": 25,
+        "response_seconds": 40,
+        "tips": "Count your sequencing words on your fingers before you start."
       },
       "conversation": {
-        "opening_question": "Clear steps! Which filler word do you catch yourself using most?",
+        "opening_question": "Great sequence! Which part of that routine do you enjoy the most?",
         "follow_up_questions": [
-          "When does it show up most — under pressure or when you're unsure?",
-          "What would you like to say instead of it?"
+          "What would you change about your routine if you could?",
+          "Is your routine different on days off?"
         ]
       },
-      "feedback_criteria": [
-        "filler_word_count (target 0-1)",
-        "structure_check (clear sequential steps)",
-        "duration_check (55-65 seconds)"
+      "feedback_criteria": ["At least 3 sequencing words used", "Crisp T/D sounds", "Logical order", "Pace steady"],
+      "retry_instructions": "If sequencing words were missing, retry and say each one slightly louder so you notice yourself using it."
+    },
+    {
+      "day": 4,
+      "week": 1,
+      "title": "Mastering Consonant Clusters",
+      "topic": "P/B/T consonant cluster precision",
+      "objective": "Pronounce consonant-cluster-heavy words clearly inside a short description of your work or studies.",
+      "estimated_minutes": 15,
+      "warmup": {
+        "type": "lip_and_breath_warmup",
+        "instructions": "Hum for 10 seconds, then do 5 slow lip trills (motorboat sound) to loosen your lips.",
+        "duration_seconds": 60
+      },
+      "articulation_exercise": {
+        "focus_sound": "P / B / T clusters",
+        "drill_text": "Peter Piper picked a peck of pickled peppers.",
+        "instructions": "Say slowly 3 times emphasizing each P, then at normal speed 3 times.",
+        "duration_seconds": 90
+      },
+      "mini_lesson": {
+        "title": "Why Consonant Clusters Trip Us Up",
+        "content": "Words with several consonants in a row (strengths, scripts, twelfths) force your mouth to change shape quickly. Slowing down slightly on these words keeps you intelligible.",
+        "key_points": [
+          "Identify cluster-heavy words before you speak them out loud",
+          "Slightly slow down only on the cluster, not the whole sentence",
+          "Over-articulate clusters in practice so they become automatic at full speed"
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "precision",
+          "meaning": "the quality of being exact and accurate",
+          "pronunciation": "pri-SIZH-uhn",
+          "example_sentence": "Precision in pronunciation makes you easier to understand.",
+          "similar_words": ["accuracy", "exactness"]
+        },
+        {
+          "word": "intelligible",
+          "meaning": "able to be understood; clear",
+          "pronunciation": "in-TEL-i-juh-buhl",
+          "example_sentence": "Speaking slowly keeps your speech intelligible.",
+          "similar_words": ["clear", "comprehensible"]
+        }
       ],
-      "retry_instructions": "Listen back and count your fillers, then retry the same explanation in three steps only."
+      "speaking_prompt": {
+        "prompt": "In 30-40 seconds, describe what you do for work or study, including at least one cluster-heavy word (e.g. 'strengths', 'scripts', 'structured').",
+        "prep_seconds": 25,
+        "response_seconds": 40,
+        "tips": "Pick your cluster word in advance and practice it once before recording."
+      },
+      "conversation": {
+        "opening_question": "Well articulated! What's the most challenging part of your work or studies?",
+        "follow_up_questions": [
+          "What skill are you hoping to build this year?",
+          "Who do you usually talk to most during your work or study day?"
+        ]
+      },
+      "feedback_criteria": ["Cluster word pronounced clearly", "No dropped consonants", "Natural pace outside the cluster", "Duration 30-40s"],
+      "retry_instructions": "If a cluster word was unclear, isolate it, say it 5 times slowly, then rerecord the full sentence."
+    },
+    {
+      "day": 5,
+      "week": 1,
+      "title": "Talking About Your Hobbies",
+      "topic": "F/V sound precision and enthusiasm in tone",
+      "objective": "Talk about a hobby for 30-45 seconds with varied vocal tone, not a flat monotone.",
+      "estimated_minutes": 15,
+      "warmup": {
+        "type": "pitch_warmup",
+        "instructions": "Hum from your lowest comfortable note up to your highest and back down, 3 times, to loosen your vocal range.",
+        "duration_seconds": 60
+      },
+      "articulation_exercise": {
+        "focus_sound": "F / V",
+        "drill_text": "Five very fine fiddlers played five lively tunes.",
+        "instructions": "Say slowly 3 times keeping the F and V distinct, then at normal speed.",
+        "duration_seconds": 90
+      },
+      "mini_lesson": {
+        "title": "Adding Vocal Variety",
+        "content": "A flat tone makes even interesting topics sound boring. Varying your pitch and emphasizing key words signals enthusiasm and keeps listeners engaged.",
+        "key_points": [
+          "Emphasize the one or two most important words in each sentence",
+          "Let your pitch rise slightly on exciting details",
+          "Avoid ending every sentence on the same falling tone"
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "enthusiasm",
+          "meaning": "intense and eager enjoyment or interest",
+          "pronunciation": "en-THOO-zee-az-uhm",
+          "example_sentence": "She talked about her hobby with real enthusiasm.",
+          "similar_words": ["passion", "excitement", "zeal"]
+        },
+        {
+          "word": "monotone",
+          "meaning": "speech that stays on one unvarying pitch",
+          "pronunciation": "MON-uh-tohn",
+          "example_sentence": "Avoid a monotone when describing something you love.",
+          "similar_words": ["flat", "unvarying"]
+        }
+      ],
+      "speaking_prompt": {
+        "prompt": "Talk about a hobby you enjoy for 30-45 seconds. Emphasize at least two key words with extra energy in your voice.",
+        "prep_seconds": 25,
+        "response_seconds": 45,
+        "tips": "Smile slightly while recording - it naturally changes your tone."
+      },
+      "conversation": {
+        "opening_question": "I could hear your enthusiasm there! How did you first get into that hobby?",
+        "follow_up_questions": [
+          "How often do you get to do it these days?",
+          "Is there a hobby you'd like to try next?"
+        ]
+      },
+      "feedback_criteria": ["Pitch variation present (not flat)", "F/V sounds distinct", "At least 2 emphasized words", "Duration 30-45s"],
+      "retry_instructions": "If your tone was flat, retry imagining you're explaining the hobby to a close friend who's never heard of it."
+    },
+    {
+      "day": 6,
+      "week": 1,
+      "title": "Reducing Filler Words",
+      "topic": "Replacing 'um/uh/like' with silent pauses",
+      "objective": "Answer a question for 30 seconds using a silent pause instead of a filler word when thinking.",
+      "estimated_minutes": 15,
+      "warmup": {
+        "type": "pause_practice_warmup",
+        "instructions": "Count slowly from 1 to 10 out loud, inserting a silent 1-second pause between each number instead of any sound.",
+        "duration_seconds": 60
+      },
+      "articulation_exercise": {
+        "focus_sound": "L / R alternation",
+        "drill_text": "Red leather, yellow leather, red leather, yellow leather.",
+        "instructions": "Say slowly 3 times keeping L and R distinct, then at normal speed, increasing speed each repeat.",
+        "duration_seconds": 90
+      },
+      "mini_lesson": {
+        "title": "Pause Instead of Filler",
+        "content": "Filler words fill silence because silence feels uncomfortable. A short, confident silent pause actually sounds more authoritative than 'um' or 'like' and gives your brain time to find the right word.",
+        "key_points": [
+          "Notice the moment you're about to say 'um' - that's your pause cue",
+          "A 1-2 second silence feels much longer to you than to the listener",
+          "Practicing counted pauses trains your brain to tolerate silence"
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "hesitation",
+          "meaning": "a pause due to uncertainty before acting or speaking",
+          "pronunciation": "hez-i-TEY-shuhn",
+          "example_sentence": "A short hesitation is better than a string of filler words.",
+          "similar_words": ["pause", "delay"]
+        },
+        {
+          "word": "composed",
+          "meaning": "calm and in control of one's emotions or reactions",
+          "pronunciation": "kuhm-POHZD",
+          "example_sentence": "She stayed composed even when she needed a moment to think.",
+          "similar_words": ["calm", "collected", "poised"]
+        }
+      ],
+      "speaking_prompt": {
+        "prompt": "Answer this: 'What's a skill you'd like to learn this year?' Speak for 30 seconds, replacing any urge to say 'um' with a silent pause.",
+        "prep_seconds": 15,
+        "response_seconds": 30,
+        "tips": "It's fine to pause - just keep it silent instead of filled."
+      },
+      "conversation": {
+        "opening_question": "Good use of pauses! What's stopping you from starting that skill today?",
+        "follow_up_questions": [
+          "Who do you know who's already good at that skill?",
+          "What would the first small step look like?"
+        ]
+      },
+      "feedback_criteria": ["Filler word count (target 0-1)", "Silent pauses used instead", "L/R distinct in drill", "Overall composure"],
+      "retry_instructions": "If fillers crept back in, retry at half speed first so you have time to notice and catch yourself."
+    },
+    {
+      "day": 7,
+      "week": 1,
+      "title": "Week 1 Review & Confidence Check",
+      "topic": "Mixed articulation review and self-assessment",
+      "objective": "Combine everything from week 1 (structure, breath, pace, tone, pauses) into one 45-60 second response.",
+      "estimated_minutes": 15,
+      "warmup": {
+        "type": "full_warmup",
+        "instructions": "Do the breathing warm-up (4 breaths), jaw loosening (5 wide opens), and lip trills (5 seconds), combined.",
+        "duration_seconds": 75
+      },
+      "articulation_exercise": {
+        "focus_sound": "Mixed review (S, T, F, L/R)",
+        "drill_text": "Unique New York, unique New York, you know you need unique New York.",
+        "instructions": "Say slowly 3 times, then at normal speed 3 times, focusing on every consonant staying distinct.",
+        "duration_seconds": 90
+      },
+      "mini_lesson": {
+        "title": "Putting Week 1 Together",
+        "content": "This week you practiced structure, breath control, sequencing, consonant precision, vocal variety, and pause control. Today, combine them rather than learning something new.",
+        "key_points": [
+          "Start with a clear structure (like Day 1's 3-part intro)",
+          "Breathe at natural pause points, not mid-word",
+          "Replace filler words with silent pauses when you need to think"
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "consistency",
+          "meaning": "steadiness in behavior or performance over time",
+          "pronunciation": "kuhn-SIS-tuhn-see",
+          "example_sentence": "Consistency in daily practice builds real speaking skill.",
+          "similar_words": ["regularity", "steadiness"]
+        }
+      ],
+      "speaking_prompt": {
+        "prompt": "In 45-60 seconds, tell me about your week so far: one challenge and one thing you're proud of.",
+        "prep_seconds": 30,
+        "response_seconds": 60,
+        "tips": "Structure it as: challenge first, then the proud moment, then a short closing thought."
+      },
+      "conversation": {
+        "opening_question": "That was a strong week 1 summary! Which of this week's skills felt hardest to apply?",
+        "follow_up_questions": [
+          "What's one thing you want to focus on more in week 2?",
+          "On a scale of 1-10, how has your speaking confidence shifted since Day 1?"
+        ]
+      },
+      "feedback_criteria": ["Clear structure", "Steady breathing/pace", "Filler word count", "Vocal variety", "Overall week-over-week clarity score"],
+      "retry_instructions": "Review your Day 1 and Day 7 recordings side by side before retrying - notice what's already improved."
+    },
+    {
+      "day": 8,
+      "week": 2,
+      "title": "Expressing Likes and Dislikes",
+      "topic": "Opinion vocabulary and CH/J articulation",
+      "objective": "Express likes and dislikes about a topic clearly, using varied opinion phrases instead of repeating 'I like'.",
+      "estimated_minutes": 15,
+      "warmup": {
+        "type": "breathing_and_jaw_warmup",
+        "instructions": "4 diaphragmatic breaths, then open jaw wide and say 'cha-cha-cha, ja-ja-ja' 10 times each.",
+        "duration_seconds": 60
+      },
+      "articulation_exercise": {
+        "focus_sound": "CH / J",
+        "drill_text": "Chop the chips and choose the cheapest cherries for the chutney.",
+        "instructions": "Say slowly 3 times, then at normal speed, keeping CH and J distinct from SH.",
+        "duration_seconds": 90
+      },
+      "mini_lesson": {
+        "title": "Beyond 'I Like' and 'I Don't Like'",
+        "content": "Repeating 'I like' sounds repetitive. Varying your opinion phrases makes you sound more articulate and natural.",
+        "key_points": [
+          "Positive: 'I'm a big fan of...', 'What I enjoy about X is...'",
+          "Negative: 'X isn't really my thing', 'I'm not a huge fan of...'",
+          "Neutral/mixed: 'I have mixed feelings about...'"
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "preference",
+          "meaning": "a greater liking for one option over another",
+          "pronunciation": "PREF-er-uhns",
+          "example_sentence": "My preference is coffee over tea in the morning.",
+          "similar_words": ["liking", "inclination"]
+        },
+        {
+          "word": "indifferent",
+          "meaning": "having no particular interest or sympathy; neutral",
+          "pronunciation": "in-DIF-er-uhnt",
+          "example_sentence": "I'm fairly indifferent about which restaurant we choose.",
+          "similar_words": ["neutral", "unconcerned"]
+        }
+      ],
+      "speaking_prompt": {
+        "prompt": "Talk about three foods, activities, or shows - one you love, one you dislike, one you're neutral about. Use a different opinion phrase for each.",
+        "prep_seconds": 25,
+        "response_seconds": 45,
+        "tips": "Pick three phrases from the mini lesson before you start speaking."
+      },
+      "conversation": {
+        "opening_question": "Interesting choices! What made you feel so strongly about the one you dislike?",
+        "follow_up_questions": [
+          "Has your opinion on any of these changed over time?",
+          "What would change your mind about the one you're neutral on?"
+        ]
+      },
+      "feedback_criteria": ["3 distinct opinion phrases used", "CH/J clarity", "Natural variety of structure", "Duration 30-45s"],
+      "retry_instructions": "If you repeated 'I like' more than once, retry and cross each used phrase off a mental list so you don't reuse it."
+    },
+    {
+      "day": 9,
+      "week": 2,
+      "title": "R and L Sound Precision",
+      "topic": "R/L minimal pairs and describing favorites",
+      "objective": "Clearly distinguish R and L sounds while describing a favorite place.",
+      "estimated_minutes": 15,
+      "warmup": {
+        "type": "tongue_warmup",
+        "instructions": "Stretch your tongue out and move it side to side 10 times, then curl the tip up and down 10 times.",
+        "duration_seconds": 60
+      },
+      "articulation_exercise": {
+        "focus_sound": "R / L",
+        "drill_text": "Red lorry, yellow lorry, red lorry, yellow lorry.",
+        "instructions": "Say slowly 3 times, then faster each repeat, keeping R and L from blending together.",
+        "duration_seconds": 90
+      },
+      "mini_lesson": {
+        "title": "Why R and L Get Confused",
+        "content": "R and L use similar tongue positions but different placement - R curls the tongue back without touching the roof of the mouth, L touches the tongue tip to the roof. Isolating the difference slowly fixes blending.",
+        "key_points": [
+          "For L: touch your tongue tip firmly behind your top front teeth",
+          "For R: pull your tongue back without touching the roof of your mouth",
+          "Practice minimal pairs (right/light, road/load) to train the distinction"
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "landmark",
+          "meaning": "an object or feature that is easily recognized, often used for navigation",
+          "pronunciation": "LAND-mahrk",
+          "example_sentence": "The old lighthouse is a well-known landmark in that town.",
+          "similar_words": ["feature", "monument"]
+        },
+        {
+          "word": "remarkable",
+          "meaning": "worthy of attention; striking",
+          "pronunciation": "ri-MAHR-kuh-buhl",
+          "example_sentence": "The view from that hill is remarkable at sunset.",
+          "similar_words": ["impressive", "notable"]
+        }
+      ],
+      "speaking_prompt": {
+        "prompt": "Describe your favorite place in 30-45 seconds, including at least two words with R and two with L.",
+        "prep_seconds": 25,
+        "response_seconds": 45,
+        "tips": "Slow down slightly only on your R/L words, not the whole sentence."
+      },
+      "conversation": {
+        "opening_question": "That place sounds wonderful! What's the best time of day to visit it?",
+        "follow_up_questions": [
+          "Who would you want to take there with you?",
+          "Is there a similar place closer to home?"
+        ]
+      },
+      "feedback_criteria": ["R and L clearly distinguished", "No blending in drill", "Place description vivid", "Duration 30-45s"],
+      "retry_instructions": "If R/L blended, isolate one confusing word, repeat it 5 times slowly, then rerecord the full answer."
+    },
+    {
+      "day": 10,
+      "week": 2,
+      "title": "Describing People and Places",
+      "topic": "Descriptive adjectives and W/V distinction",
+      "objective": "Describe a person or place using at least four varied descriptive adjectives instead of generic ones like 'nice' or 'good'.",
+      "estimated_minutes": 15,
+      "warmup": {
+        "type": "lip_warmup",
+        "instructions": "Say 'wuh-wuh-wuh' then 'vuh-vuh-vuh' 10 times each, feeling the different lip and teeth positions.",
+        "duration_seconds": 60
+      },
+      "articulation_exercise": {
+        "focus_sound": "W / V",
+        "drill_text": "Vincent vowed very vividly to visit the village in winter.",
+        "instructions": "Say slowly 3 times keeping W (lips rounded, no teeth) distinct from V (teeth on lip), then at normal speed.",
+        "duration_seconds": 90
+      },
+      "mini_lesson": {
+        "title": "Upgrade Your Adjectives",
+        "content": "Words like 'nice' and 'good' are vague and don't paint a picture. Specific adjectives make your descriptions far more vivid and memorable.",
+        "key_points": [
+          "Instead of 'nice person' try 'warm', 'witty', or 'down-to-earth'",
+          "Instead of 'good place' try 'vibrant', 'peaceful', or 'bustling'",
+          "Pick adjectives that convey a specific feeling, not just approval"
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "vibrant",
+          "meaning": "full of energy and life; bright and striking",
+          "pronunciation": "VAHY-bruhnt",
+          "example_sentence": "The market was vibrant with colors and sounds.",
+          "similar_words": ["lively", "energetic"]
+        },
+        {
+          "word": "down-to-earth",
+          "meaning": "practical, sensible, and unpretentious",
+          "pronunciation": "down-too-URTH",
+          "example_sentence": "Despite his success, he's very down-to-earth.",
+          "similar_words": ["grounded", "humble"]
+        }
+      ],
+      "speaking_prompt": {
+        "prompt": "Describe someone you admire or a place you love for 30-45 seconds, using at least four specific adjectives.",
+        "prep_seconds": 25,
+        "response_seconds": 45,
+        "tips": "List your four adjectives mentally before you start, avoiding 'nice' and 'good'."
+      },
+      "conversation": {
+        "opening_question": "Vivid description! What's one specific memory that shows that quality?",
+        "follow_up_questions": [
+          "How did you first meet them or find that place?",
+          "What would you tell someone who's never experienced it?"
+        ]
+      },
+      "feedback_criteria": ["4+ specific adjectives used", "No 'nice'/'good' as main descriptors", "W/V distinct", "Duration 30-45s"],
+      "retry_instructions": "If you used 'nice' or 'good', retry and swap each one for a more specific word before recording."
+    },
+    {
+      "day": 11,
+      "week": 2,
+      "title": "Expressing Opinions Clearly",
+      "topic": "Structured opinion-giving and TH sound",
+      "objective": "State an opinion with a clear reason and example, using the TH sound accurately.",
+      "estimated_minutes": 15,
+      "warmup": {
+        "type": "tongue_tip_warmup",
+        "instructions": "Place your tongue tip lightly between your teeth and say 'th-th-th' 15 times, then 'the-the-the'.",
+        "duration_seconds": 60
+      },
+      "articulation_exercise": {
+        "focus_sound": "TH (voiced and unvoiced)",
+        "drill_text": "Thirty-three thoughtful thinkers thought through their theories together.",
+        "instructions": "Say slowly 3 times with visible tongue-tip placement, then at normal speed.",
+        "duration_seconds": 90
+      },
+      "mini_lesson": {
+        "title": "Opinion + Reason + Example",
+        "content": "A clear opinion has three parts: state your view, give one reason, then back it up with a quick example. This structure sounds confident and well thought-out, even when improvised.",
+        "key_points": [
+          "State your opinion directly: 'I think...' / 'In my view...'",
+          "Give one reason: 'mainly because...'",
+          "Add a short example to make it concrete"
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "perspective",
+          "meaning": "a particular attitude toward or way of viewing something",
+          "pronunciation": "per-SPEK-tiv",
+          "example_sentence": "I'd like to hear your perspective on this.",
+          "similar_words": ["viewpoint", "outlook"]
+        },
+        {
+          "word": "justify",
+          "meaning": "to show or prove to be right or reasonable",
+          "pronunciation": "JUHS-tuh-fahy",
+          "example_sentence": "Can you justify why you think that's the better option?",
+          "similar_words": ["support", "defend"]
+        }
+      ],
+      "speaking_prompt": {
+        "prompt": "Share your opinion on a simple topic (e.g. 'working from home' or 'morning vs evening workouts') using the opinion-reason-example structure, including at least one TH word.",
+        "prep_seconds": 25,
+        "response_seconds": 45,
+        "tips": "Say your opinion in one short sentence first - don't bury it."
+      },
+      "conversation": {
+        "opening_question": "Well reasoned! Has anyone ever changed your mind on that topic?",
+        "follow_up_questions": [
+          "What's the strongest argument against your view?",
+          "How did you first form that opinion?"
+        ]
+      },
+      "feedback_criteria": ["Opinion stated clearly and early", "Reason given", "Example included", "TH sound accurate", "Duration 30-45s"],
+      "retry_instructions": "If your opinion was buried or unclear, retry by saying it as the very first sentence."
+    },
+    {
+      "day": 12,
+      "week": 2,
+      "title": "Telling a Short Story",
+      "topic": "Narrative structure and K/G articulation",
+      "objective": "Tell a 45-second personal story with a clear beginning, middle, and end.",
+      "estimated_minutes": 15,
+      "warmup": {
+        "type": "back_of_tongue_warmup",
+        "instructions": "Say 'ka-ka-ka' then 'ga-ga-ga' 10 times each, feeling the back of your tongue touch your soft palate.",
+        "duration_seconds": 60
+      },
+      "articulation_exercise": {
+        "focus_sound": "K / G",
+        "drill_text": "Can you can a can as a canner can can a can?",
+        "instructions": "Say slowly 3 times, then at normal speed, keeping K crisp and unvoiced, G soft and voiced.",
+        "duration_seconds": 90
+      },
+      "mini_lesson": {
+        "title": "The 3-Act Mini Story",
+        "content": "Even a 45-second story works better with a simple structure: set the scene, describe what happened (including a small challenge or turn), then say how it ended or what you learned.",
+        "key_points": [
+          "Beginning: set the scene in one sentence (where/when)",
+          "Middle: describe the key event or challenge",
+          "End: the outcome or a short takeaway"
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "anecdote",
+          "meaning": "a short, interesting story about a real incident or person",
+          "pronunciation": "AN-ik-doht",
+          "example_sentence": "She shared a funny anecdote from her trip.",
+          "similar_words": ["story", "tale"]
+        },
+        {
+          "word": "turning point",
+          "meaning": "a moment when a significant change occurs",
+          "pronunciation": "TUR-ning point",
+          "example_sentence": "Meeting my mentor was a turning point in my career.",
+          "similar_words": ["pivotal moment"]
+        }
+      ],
+      "speaking_prompt": {
+        "prompt": "Tell a short story about a small challenge you faced recently, using the beginning-middle-end structure.",
+        "prep_seconds": 30,
+        "response_seconds": 45,
+        "tips": "Keep the beginning to one sentence so you have time for the middle and end."
+      },
+      "conversation": {
+        "opening_question": "Great story! What did you learn from that experience?",
+        "follow_up_questions": [
+          "Would you handle it differently if it happened again?",
+          "Who else was involved in that story?"
+        ]
+      },
+      "feedback_criteria": ["Clear beginning/middle/end", "K/G crisp in drill", "Story stayed within time", "Logical flow"],
+      "retry_instructions": "If the ending felt rushed, retry and plan your closing sentence before you start speaking."
+    },
+    {
+      "day": 13,
+      "week": 2,
+      "title": "Comparing and Contrasting",
+      "topic": "Comparison language and M/N nasal clarity",
+      "objective": "Compare two options clearly using comparison language, ending with a stated preference.",
+      "estimated_minutes": 15,
+      "warmup": {
+        "type": "nasal_warmup",
+        "instructions": "Hum 'mmm' for 5 seconds, then 'nnn' for 5 seconds, 3 times each, feeling the vibration in your nose.",
+        "duration_seconds": 60
+      },
+      "articulation_exercise": {
+        "focus_sound": "M / N",
+        "drill_text": "Many men in many moods meet many minds in the morning.",
+        "instructions": "Say slowly 3 times keeping M and N distinct, then at normal speed.",
+        "duration_seconds": 90
+      },
+      "mini_lesson": {
+        "title": "Comparing Two Things Clearly",
+        "content": "Comparisons sound clearer when you use dedicated language rather than repeating 'and' or 'but'. Structure helps listeners track both sides before your conclusion.",
+        "key_points": [
+          "Similarity: 'Both X and Y...', 'Similarly...'",
+          "Difference: 'Unlike X, Y...', 'On the other hand...'",
+          "End with a clear preference: 'Overall, I'd choose...'"
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "contrast",
+          "meaning": "the state of being strikingly different from something else",
+          "pronunciation": "KON-trast",
+          "example_sentence": "There's a clear contrast between the two approaches.",
+          "similar_words": ["difference", "distinction"]
+        },
+        {
+          "word": "trade-off",
+          "meaning": "a balance achieved between two desirable but incompatible things",
+          "pronunciation": "TREYD-awf",
+          "example_sentence": "There's always a trade-off between speed and quality.",
+          "similar_words": ["compromise", "balance"]
+        }
+      ],
+      "speaking_prompt": {
+        "prompt": "Compare two things you know well (e.g. two cities, two jobs, two apps) in 40-50 seconds, then state which you prefer and why.",
+        "prep_seconds": 25,
+        "response_seconds": 50,
+        "tips": "Use at least one similarity phrase and one difference phrase from the mini lesson."
+      },
+      "conversation": {
+        "opening_question": "Clear comparison! What would make you change your preference?",
+        "follow_up_questions": [
+          "Have you always felt this way, or did your view change?",
+          "How would someone else likely compare these two?"
+        ]
+      },
+      "feedback_criteria": ["Similarity + difference language used", "Clear final preference stated", "M/N distinct", "Duration 40-50s"],
+      "retry_instructions": "If no clear preference was stated, retry and make your last sentence a direct 'Overall, I prefer...' statement."
+    },
+    {
+      "day": 14,
+      "week": 2,
+      "title": "Week 2 Review & Storytelling Challenge",
+      "topic": "Mixed review of opinions, descriptions, and storytelling",
+      "objective": "Combine opinion-giving, description, and storytelling into one 60-second response.",
+      "estimated_minutes": 15,
+      "warmup": {
+        "type": "full_warmup",
+        "instructions": "4 breaths, 5 jaw opens, 10 lip trills, then the CH/J and TH drills once each at normal speed.",
+        "duration_seconds": 90
+      },
+      "articulation_exercise": {
+        "focus_sound": "Mixed review (R, L, TH, CH)",
+        "drill_text": "Really lively children chat cheerfully through thirty thoughtful theories.",
+        "instructions": "Say slowly 3 times, then at normal speed, keeping every consonant distinct.",
+        "duration_seconds": 90
+      },
+      "mini_lesson": {
+        "title": "Putting Week 2 Together",
+        "content": "This week covered opinions, vivid descriptions, storytelling, and comparisons. Today's challenge blends them: describe an experience, give your opinion on it, and briefly compare it to an alternative.",
+        "key_points": [
+          "Open with a short story or specific moment",
+          "State your opinion on it with a reason",
+          "Close with a quick comparison to something else, if relevant"
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "reflect",
+          "meaning": "to think deeply or carefully about something",
+          "pronunciation": "ri-FLEKT",
+          "example_sentence": "Take a moment to reflect on what you've practiced this week.",
+          "similar_words": ["consider", "ponder"]
+        }
+      ],
+      "speaking_prompt": {
+        "prompt": "Tell me about an experience from the past two weeks, give your opinion on it, and compare it briefly to something similar. Aim for 50-60 seconds.",
+        "prep_seconds": 30,
+        "response_seconds": 60,
+        "tips": "Plan one sentence for each part: story, opinion, comparison."
+      },
+      "conversation": {
+        "opening_question": "Really well put together! Which skill from this week did you find easiest to apply?",
+        "follow_up_questions": [
+          "What's one thing you want to work on in week 3?",
+          "How does this recording compare to your Day 7 one?"
+        ]
+      },
+      "feedback_criteria": ["All 3 elements present (story/opinion/comparison)", "Mixed consonants clear", "Natural flow between sections", "Duration 50-60s"],
+      "retry_instructions": "If one section was missing, retry and tag each part out loud in your head before switching to it ('story... opinion... comparison...')."
+    },
+    {
+      "day": 15,
+      "week": 3,
+      "title": "Introducing Yourself Professionally",
+      "topic": "Professional self-introduction and S/Z precision",
+      "objective": "Deliver a 30-45 second professional introduction suitable for a meeting or networking event.",
+      "estimated_minutes": 15,
+      "warmup": {
+        "type": "breathing_and_sibilant_warmup",
+        "instructions": "4 diaphragmatic breaths, then say 'sss' then 'zzz' for 5 seconds each, 3 times, feeling the difference in vibration.",
+        "duration_seconds": 60
+      },
+      "articulation_exercise": {
+        "focus_sound": "S / Z",
+        "drill_text": "Six sticky skeletons zoomed past the sizzling zoo.",
+        "instructions": "Say slowly 3 times keeping unvoiced S distinct from voiced Z, then at normal speed.",
+        "duration_seconds": 90
+      },
+      "mini_lesson": {
+        "title": "The Professional Introduction Formula",
+        "content": "A professional introduction swaps personal details for role, focus, and value. It should answer: who are you, what do you do, and why does it matter to this conversation.",
+        "key_points": [
+          "Name + role/title",
+          "What you focus on or are currently working on",
+          "A connector to the current context ('I'm here because...')"
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "stakeholder",
+          "meaning": "a person with an interest or concern in a business or project",
+          "pronunciation": "STEYK-hohl-der",
+          "example_sentence": "We need sign-off from every key stakeholder.",
+          "similar_words": ["interested party"]
+        },
+        {
+          "word": "initiative",
+          "meaning": "a new plan or process to achieve a goal",
+          "pronunciation": "i-NISH-ee-uh-tiv",
+          "example_sentence": "She's leading a new sustainability initiative.",
+          "similar_words": ["project", "effort"]
+        }
+      ],
+      "speaking_prompt": {
+        "prompt": "Introduce yourself as if meeting a new professional contact for the first time, in 30-45 seconds.",
+        "prep_seconds": 30,
+        "response_seconds": 45,
+        "tips": "Keep it role-focused - save personal hobbies for a different context."
+      },
+      "conversation": {
+        "opening_question": "Solid professional introduction! What's a project you're especially proud of right now?",
+        "follow_up_questions": [
+          "What would you want a new contact to remember about you?",
+          "How does this introduction differ from your Day 1 one?"
+        ]
+      },
+      "feedback_criteria": ["Role and focus clearly stated", "S/Z distinct", "No personal rambling", "Duration 30-45s"],
+      "retry_instructions": "If it drifted into personal details, retry and keep every sentence tied to your professional role."
+    },
+    {
+      "day": 16,
+      "week": 3,
+      "title": "TH and S Sound Mastery",
+      "topic": "Precision drilling for commonly confused sounds",
+      "objective": "Explain a process or task at work clearly while maintaining TH/S precision.",
+      "estimated_minutes": 15,
+      "warmup": {
+        "type": "tongue_precision_warmup",
+        "instructions": "Alternate 'th-s-th-s-th-s' slowly 10 times, feeling the tongue move from between the teeth to behind them.",
+        "duration_seconds": 60
+      },
+      "articulation_exercise": {
+        "focus_sound": "TH / S",
+        "drill_text": "The sixth sick sheik's sixth sheep's sick.",
+        "instructions": "Say very slowly 3 times - this is a hard one - then gradually increase speed over 3 more repeats.",
+        "duration_seconds": 90
+      },
+      "mini_lesson": {
+        "title": "Explaining a Process Step by Step",
+        "content": "Explaining 'how' something works requires clear sequencing plus precise word choice, since mispronounced technical words (like 'systems' or 'this') can confuse listeners.",
+        "key_points": [
+          "Break the process into 3-4 clear steps",
+          "Slow down on any word with TH or S clusters",
+          "Check in with a summary sentence at the end"
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "streamline",
+          "meaning": "to make a process more efficient by simplifying it",
+          "pronunciation": "STREEM-lahyn",
+          "example_sentence": "We streamlined the approval process to save time.",
+          "similar_words": ["simplify", "optimize"]
+        }
+      ],
+      "speaking_prompt": {
+        "prompt": "Explain a simple process or task you do regularly (work or personal) in 3-4 steps, in 40-50 seconds.",
+        "prep_seconds": 25,
+        "response_seconds": 50,
+        "tips": "Slow down deliberately on any word containing TH or S clusters."
+      },
+      "conversation": {
+        "opening_question": "Clear explanation! Is there a step in that process you'd like to simplify?",
+        "follow_up_questions": [
+          "How did you learn this process originally?",
+          "Would a beginner be able to follow your explanation?"
+        ]
+      },
+      "feedback_criteria": ["TH/S precision maintained", "3-4 clear steps", "Logical order", "Closing summary present"],
+      "retry_instructions": "If TH/S blurred under speed, retry at 80% of your normal pace and only speed up once it stays clear."
+    },
+    {
+      "day": 17,
+      "week": 3,
+      "title": "Explaining Your Work or Studies",
+      "topic": "Clarity under complexity and consonant clusters",
+      "objective": "Explain what you do to someone outside your field in plain, jargon-free language.",
+      "estimated_minutes": 15,
+      "warmup": {
+        "type": "breath_and_cluster_warmup",
+        "instructions": "4 breaths, then say 'strengths, scripts, twelfths' slowly 5 times each.",
+        "duration_seconds": 60
+      },
+      "articulation_exercise": {
+        "focus_sound": "Consonant clusters (STR, SCR)",
+        "drill_text": "Strong structures strengthen strategic strategies.",
+        "instructions": "Say slowly 3 times, then at normal speed, keeping each cluster fully pronounced.",
+        "duration_seconds": 90
+      },
+      "mini_lesson": {
+        "title": "Explaining Without Jargon",
+        "content": "True clarity means someone outside your field can follow you. Replace technical jargon with everyday comparisons or simple verbs.",
+        "key_points": [
+          "Ask yourself: would a 12-year-old understand this sentence?",
+          "Replace jargon with a simple analogy where possible",
+          "Define any term you can't avoid, briefly, right after using it"
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "jargon",
+          "meaning": "special words or expressions used by a profession that are difficult for others to understand",
+          "pronunciation": "JAHR-guhn",
+          "example_sentence": "Try to avoid jargon when explaining your job to a new client.",
+          "similar_words": ["technical language"]
+        },
+        {
+          "word": "analogy",
+          "meaning": "a comparison between two things to help explain an idea",
+          "pronunciation": "uh-NAL-uh-jee",
+          "example_sentence": "He used a cooking analogy to explain the project timeline.",
+          "similar_words": ["comparison"]
+        }
+      ],
+      "speaking_prompt": {
+        "prompt": "Explain what you do (job, studies, or main project) to someone with zero background in it, in 40-50 seconds, with no jargon.",
+        "prep_seconds": 30,
+        "response_seconds": 50,
+        "tips": "If you catch yourself using a technical term, pause and define it simply."
+      },
+      "conversation": {
+        "opening_question": "Very clear, no jargon at all! What part of your field is hardest to explain simply?",
+        "follow_up_questions": [
+          "What analogy do you usually reach for?",
+          "Who was the last person you had to explain this to?"
+        ]
+      },
+      "feedback_criteria": ["No unexplained jargon", "STR/SCR clusters clear", "Would be understandable to a non-expert", "Duration 40-50s"],
+      "retry_instructions": "If jargon slipped in, retry and replace each technical term with a simple everyday word."
+    },
+    {
+      "day": 18,
+      "week": 3,
+      "title": "Giving Directions and Instructions",
+      "topic": "Step-by-step clarity and imperative verbs",
+      "objective": "Give a set of clear spoken instructions that a listener could actually follow.",
+      "estimated_minutes": 15,
+      "warmup": {
+        "type": "pace_control_warmup",
+        "instructions": "Count from 1 to 20 out loud at a deliberately slow, even pace, like you're giving someone time to write each number down.",
+        "duration_seconds": 60
+      },
+      "articulation_exercise": {
+        "focus_sound": "R (word-initial and word-final)",
+        "drill_text": "Round the rugged rock the ragged rascal ran.",
+        "instructions": "Say slowly 3 times, then at normal speed, keeping R clear at both the start and end of words.",
+        "duration_seconds": 90
+      },
+      "mini_lesson": {
+        "title": "Instructions People Can Actually Follow",
+        "content": "Good instructions use short imperative sentences, number the steps, and avoid cramming two actions into one sentence.",
+        "key_points": [
+          "Use imperative verbs: 'Turn...', 'Press...', 'Add...'",
+          "One action per sentence",
+          "Number steps out loud ('Step one... Step two...') for very short instructions"
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "imperative (grammar)",
+          "meaning": "a verb form used to give commands or instructions",
+          "pronunciation": "im-PER-uh-tiv",
+          "example_sentence": "'Turn left' is an imperative sentence.",
+          "similar_words": ["command form"]
+        }
+      ],
+      "speaking_prompt": {
+        "prompt": "Give directions to your home from a nearby landmark, or explain how to make a simple dish, in 40-50 seconds using numbered steps.",
+        "prep_seconds": 25,
+        "response_seconds": 50,
+        "tips": "Say 'step one, step two' out loud if it helps you stay organized."
+      },
+      "conversation": {
+        "opening_question": "I could follow that easily! What's a time someone followed your directions and got lost anyway?",
+        "follow_up_questions": [
+          "What landmark would you add to make it even clearer?",
+          "Do you prefer giving or receiving directions?"
+        ]
+      },
+      "feedback_criteria": ["One action per sentence", "Clear step order", "R clarity in drill", "Would be followable by a stranger"],
+      "retry_instructions": "If two actions were combined in one sentence, retry and split each into its own short sentence."
+    },
+    {
+      "day": 19,
+      "week": 3,
+      "title": "Making Small Talk Confidently",
+      "topic": "Conversational openers and W/WH sounds",
+      "objective": "Practice natural small talk by asking a question and giving a short, engaging answer.",
+      "estimated_minutes": 15,
+      "warmup": {
+        "type": "breath_and_wh_warmup",
+        "instructions": "4 breaths, then say 'why, what, where, when, which' slowly 3 times each with rounded lips on the W/WH.",
+        "duration_seconds": 60
+      },
+      "articulation_exercise": {
+        "focus_sound": "W / WH",
+        "drill_text": "Which wristwatch is a Swiss wristwatch?",
+        "instructions": "Say slowly 3 times, then at normal speed, keeping lips rounded on W/WH sounds.",
+        "duration_seconds": 90
+      },
+      "mini_lesson": {
+        "title": "Small Talk That Doesn't Feel Forced",
+        "content": "Good small talk uses open questions (not yes/no) and the 'question + short answer + follow-up' pattern to keep a natural back-and-forth rhythm.",
+        "key_points": [
+          "Ask open questions starting with 'what', 'how', or 'why'",
+          "Give a short answer, then add one extra detail",
+          "Return the question to keep the conversation balanced"
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "rapport",
+          "meaning": "a close and harmonious relationship with mutual understanding",
+          "pronunciation": "ra-POR",
+          "example_sentence": "Good small talk helps build rapport quickly.",
+          "similar_words": ["connection", "relationship"]
+        }
+      ],
+      "speaking_prompt": {
+        "prompt": "Imagine meeting a new colleague at a coffee machine. Ask an open question, then answer it yourself as if they asked you back, in 30-40 seconds total.",
+        "prep_seconds": 20,
+        "response_seconds": 40,
+        "tips": "Keep your answer short, then add one extra detail before returning the question."
+      },
+      "conversation": {
+        "opening_question": "Natural and easy! What's a small-talk topic you always struggle to think of?",
+        "follow_up_questions": [
+          "What's your go-to opening question with strangers?",
+          "How do you usually end a small-talk conversation politely?"
+        ]
+      },
+      "feedback_criteria": ["Open question used", "Short answer + extra detail", "Question returned", "W/WH clarity"],
+      "retry_instructions": "If the answer ran too long, retry and cut it to one sentence plus one added detail."
+    },
+    {
+      "day": 20,
+      "week": 3,
+      "title": "Handling Difficult Questions",
+      "topic": "Composure under pressure and thinking-time phrases",
+      "objective": "Respond to an unexpected or tricky question calmly, using a thinking-time phrase instead of a filler word.",
+      "estimated_minutes": 15,
+      "warmup": {
+        "type": "calming_breath_warmup",
+        "instructions": "4 slow breaths (inhale 4s, hold 4s, exhale 6s) to lower your heart rate before a pressure-style prompt.",
+        "duration_seconds": 60
+      },
+      "articulation_exercise": {
+        "focus_sound": "Mixed clarity drill",
+        "drill_text": "Freshly fried fish, briskly baked bread, and sizzling spiced stew.",
+        "instructions": "Say slowly 3 times keeping every consonant distinct under pressure of speaking continuously.",
+        "duration_seconds": 90
+      },
+      "mini_lesson": {
+        "title": "Buying Yourself Thinking Time",
+        "content": "A tricky question doesn't need an instant answer. Calm thinking-time phrases sound more composed than silence or filler words, and they buy you a few seconds to organize your thoughts.",
+        "key_points": [
+          "'That's a great question, let me think about that for a second.'",
+          "'There are a few angles here - let me start with...'",
+          "Repeat part of the question back to buy an extra second while you think"
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "composure",
+          "meaning": "the state of being calm and in control of oneself",
+          "pronunciation": "kuhm-POH-zher",
+          "example_sentence": "She kept her composure under a tough question.",
+          "similar_words": ["calm", "poise"]
+        }
+      ],
+      "speaking_prompt": {
+        "prompt": "Answer this unexpected question: 'What's your biggest weakness and how are you working on it?' Use a thinking-time phrase before answering. 40-50 seconds.",
+        "prep_seconds": 15,
+        "response_seconds": 50,
+        "tips": "Don't rush - use your thinking-time phrase and take a real breath before answering."
+      },
+      "conversation": {
+        "opening_question": "Composed and thoughtful. What usually throws you off guard in conversations?",
+        "follow_up_questions": [
+          "How do you recover when you lose your train of thought?",
+          "What question do you wish people would stop asking you?"
+        ]
+      },
+      "feedback_criteria": ["Thinking-time phrase used", "No long awkward silence", "Composed tone", "Clear final answer"],
+      "retry_instructions": "If you froze or rushed, retry and deliberately use your thinking-time phrase out loud before answering."
+    },
+    {
+      "day": 21,
+      "week": 3,
+      "title": "Week 3 Review & Mock Interview",
+      "topic": "Mixed professional communication review",
+      "objective": "Answer a mock interview question combining professional introduction, clear explanation, and composure.",
+      "estimated_minutes": 15,
+      "warmup": {
+        "type": "full_professional_warmup",
+        "instructions": "4 breaths, jaw loosening, then the S/Z and consonant cluster drills once each at normal speed.",
+        "duration_seconds": 90
+      },
+      "articulation_exercise": {
+        "focus_sound": "Mixed review (S, TH, STR, R)",
+        "drill_text": "Strong stakeholders strategically strengthen their structured strategies through thorough research.",
+        "instructions": "Say slowly 3 times, then at normal speed, keeping every cluster distinct.",
+        "duration_seconds": 90
+      },
+      "mini_lesson": {
+        "title": "Mock Interview Mindset",
+        "content": "This week covered professional introductions, jargon-free explanations, giving instructions, small talk, and composure. A mock interview question is a chance to use all of them together.",
+        "key_points": [
+          "Open with a brief relevant intro if needed",
+          "Structure your answer (situation, action, result works well)",
+          "Use a thinking-time phrase if you need a second to organize"
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "credible",
+          "meaning": "able to be believed; trustworthy",
+          "pronunciation": "KRED-uh-buhl",
+          "example_sentence": "A calm, structured answer sounds more credible.",
+          "similar_words": ["believable", "convincing"]
+        }
+      ],
+      "speaking_prompt": {
+        "prompt": "Answer this mock interview question: 'Tell me about a time you solved a problem at work or school.' Use situation-action-result structure. 50-60 seconds.",
+        "prep_seconds": 30,
+        "response_seconds": 60,
+        "tips": "Situation (1 sentence), action (2 sentences), result (1 sentence)."
+      },
+      "conversation": {
+        "opening_question": "Strong mock-interview answer! What's a question you're still nervous about being asked?",
+        "follow_up_questions": [
+          "How did you choose that particular example?",
+          "What would you add if you had another 30 seconds?"
+        ]
+      },
+      "feedback_criteria": ["Situation-action-result structure present", "Composed delivery", "Mixed consonants clear", "Duration 50-60s"],
+      "retry_instructions": "If the result was missing, retry and make sure your final sentence clearly states the outcome."
+    },
+    {
+      "day": 22,
+      "week": 4,
+      "title": "Structuring a Short Presentation",
+      "topic": "Presentation openings and sibilant clusters",
+      "objective": "Deliver a 45-60 second mini presentation with a clear opening hook, body, and summary.",
+      "estimated_minutes": 15,
+      "warmup": {
+        "type": "full_body_warmup",
+        "instructions": "Stand up if possible. 4 breaths, 5 shoulder rolls, 5 jaw opens, to release physical tension before presenting.",
+        "duration_seconds": 75
+      },
+      "articulation_exercise": {
+        "focus_sound": "S clusters",
+        "drill_text": "Six slippery snails slid slowly past the sleepy seals.",
+        "instructions": "Say slowly 3 times, then at normal speed, keeping each S cluster crisp.",
+        "duration_seconds": 90
+      },
+      "mini_lesson": {
+        "title": "Opening, Body, Summary",
+        "content": "Every short presentation benefits from a simple shape: a hook that grabs attention, 2-3 body points, and a one-sentence summary that restates the main idea.",
+        "key_points": [
+          "Hook: a question, surprising fact, or short story",
+          "Body: 2-3 clear points, each in its own sentence",
+          "Summary: restate your main point in one sentence"
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "hook (presentation)",
+          "meaning": "an opening line designed to capture attention immediately",
+          "pronunciation": "hook",
+          "example_sentence": "Start with a strong hook to grab the audience's attention.",
+          "similar_words": ["attention-grabber", "opener"]
+        }
+      ],
+      "speaking_prompt": {
+        "prompt": "Give a 45-60 second mini presentation on a topic you know well, with a hook, 2-3 points, and a summary.",
+        "prep_seconds": 40,
+        "response_seconds": 60,
+        "tips": "Write your hook sentence first - it sets the tone for everything after it."
+      },
+      "conversation": {
+        "opening_question": "Strong opening hook! What made you choose that topic?",
+        "follow_up_questions": [
+          "Which of your 2-3 points do you think was strongest?",
+          "How would you adapt this for a 5-minute version?"
+        ]
+      },
+      "feedback_criteria": ["Clear hook present", "2-3 distinct body points", "One-sentence summary at the end", "S clusters clear"],
+      "retry_instructions": "If the hook felt flat, retry opening with a question or surprising fact instead of a plain statement."
+    },
+    {
+      "day": 23,
+      "week": 4,
+      "title": "Vocal Variety and Emphasis",
+      "topic": "Stress patterns and emotional tone control",
+      "objective": "Deliver the same short message in three different tones (confident, warm, urgent) to practice vocal control.",
+      "estimated_minutes": 15,
+      "warmup": {
+        "type": "pitch_range_warmup",
+        "instructions": "Say 'hello' five times, each time in a different emotional tone (happy, sad, excited, calm, serious).",
+        "duration_seconds": 60
+      },
+      "articulation_exercise": {
+        "focus_sound": "Stress and emphasis practice",
+        "drill_text": "I did NOT say he stole the money. (Repeat, stressing a different word each time.)",
+        "instructions": "Say the sentence 5 times, stressing a different word each time, and notice how the meaning shifts.",
+        "duration_seconds": 90
+      },
+      "mini_lesson": {
+        "title": "Tone Changes Meaning",
+        "content": "The same words can sound confident, warm, or urgent depending on pitch, pace, and emphasis. Deliberately practicing tone shifts gives you control over how your message lands.",
+        "key_points": [
+          "Confident: steady pace, falling pitch at the end of sentences",
+          "Warm: slightly slower pace, softer volume, rising pitch on key words",
+          "Urgent: faster pace, shorter pauses, stronger emphasis on key verbs"
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "emphasis",
+          "meaning": "special importance or stress given to a word or idea",
+          "pronunciation": "EM-fuh-sis",
+          "example_sentence": "Put the emphasis on the word 'today' to sound urgent.",
+          "similar_words": ["stress", "weight"]
+        }
+      ],
+      "speaking_prompt": {
+        "prompt": "Say the sentence 'We need to finish this today' three times: once confidently, once warmly, once urgently.",
+        "prep_seconds": 20,
+        "response_seconds": 30,
+        "tips": "Exaggerate the tone differences more than feels natural - it usually sounds just right to listeners."
+      },
+      "conversation": {
+        "opening_question": "I could really hear the three different tones! Which one came most naturally to you?",
+        "follow_up_questions": [
+          "Which tone do you use most often at work or home?",
+          "Is there a tone you'd like to use more often?"
+        ]
+      },
+      "feedback_criteria": ["3 distinct tones audibly different", "Appropriate pace/pitch per tone", "Clear emphasis shifts in drill"],
+      "retry_instructions": "If the tones sounded similar, retry exaggerating pace and pitch differences even more than feels comfortable."
+    },
+    {
+      "day": 24,
+      "week": 4,
+      "title": "Persuading and Convincing",
+      "topic": "Persuasive structure and B/F articulation",
+      "objective": "Persuade a listener toward a simple viewpoint using a claim-evidence-benefit structure.",
+      "estimated_minutes": 15,
+      "warmup": {
+        "type": "energy_warmup",
+        "instructions": "4 breaths, then say 'Fuzzy Wuzzy was a bear' slowly, then with increasing confidence and volume 3 times.",
+        "duration_seconds": 60
+      },
+      "articulation_exercise": {
+        "focus_sound": "B / F",
+        "drill_text": "Fuzzy Wuzzy was a bear, Fuzzy Wuzzy had no hair.",
+        "instructions": "Say slowly 3 times, then with growing confidence and projection, keeping B and F distinct.",
+        "duration_seconds": 90
+      },
+      "mini_lesson": {
+        "title": "Claim, Evidence, Benefit",
+        "content": "Persuasive speech is more convincing when it's structured: state your claim, back it with evidence, then show the listener what's in it for them.",
+        "key_points": [
+          "Claim: state your position in one clear sentence",
+          "Evidence: a fact, example, or short reason",
+          "Benefit: what the listener gains if they agree"
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "persuasive",
+          "meaning": "good at convincing someone to do or believe something",
+          "pronunciation": "per-SWEY-siv",
+          "example_sentence": "Her persuasive argument changed the whole team's mind.",
+          "similar_words": ["convincing", "compelling"]
+        }
+      ],
+      "speaking_prompt": {
+        "prompt": "Persuade someone to try a habit or product you like, using claim-evidence-benefit, in 40-50 seconds.",
+        "prep_seconds": 25,
+        "response_seconds": 50,
+        "tips": "Keep your claim to one short, confident sentence at the very start."
+      },
+      "conversation": {
+        "opening_question": "Convincing! What's the strongest counterargument someone might give you?",
+        "follow_up_questions": [
+          "How would you respond to that counterargument?",
+          "Has anyone ever persuaded you of the opposite view?"
+        ]
+      },
+      "feedback_criteria": ["Claim-evidence-benefit structure present", "B/F distinct", "Confident projection", "Duration 40-50s"],
+      "retry_instructions": "If the benefit to the listener was missing, retry and add one sentence on what's in it for them."
+    },
+    {
+      "day": 25,
+      "week": 4,
+      "title": "Agreeing and Disagreeing Politely",
+      "topic": "Diplomatic language and B sound precision",
+      "objective": "Politely disagree with a statement while acknowledging the other side first.",
+      "estimated_minutes": 15,
+      "warmup": {
+        "type": "plosive_warmup",
+        "instructions": "Say 'buh-buh-buh' 10 times with a strong lip pop on each B, then 'puh-puh-puh' 10 times.",
+        "duration_seconds": 60
+      },
+      "articulation_exercise": {
+        "focus_sound": "B (plosive precision)",
+        "drill_text": "A big black bug bit a big black bear and made the big black bear bleed blood.",
+        "instructions": "Say slowly 3 times keeping each B crisp, then at normal speed.",
+        "duration_seconds": 90
+      },
+      "mini_lesson": {
+        "title": "Disagreeing Without Sounding Harsh",
+        "content": "Polite disagreement acknowledges the other view before offering your own, which keeps the conversation collaborative rather than confrontational.",
+        "key_points": [
+          "Acknowledge first: 'I see your point, and...' / 'That's fair, though...'",
+          "Give your view with a reason, not just a flat 'no'",
+          "Invite further discussion: 'What do you think about...?'"
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "diplomatic",
+          "meaning": "tactful and careful not to offend when dealing with others",
+          "pronunciation": "dip-luh-MAT-ik",
+          "example_sentence": "She gave a diplomatic response even though she disagreed.",
+          "similar_words": ["tactful", "courteous"]
+        }
+      ],
+      "speaking_prompt": {
+        "prompt": "Respond to this statement: 'Remote work is always better than working in an office.' Acknowledge the view, then politely disagree or add nuance, in 35-45 seconds.",
+        "prep_seconds": 25,
+        "response_seconds": 45,
+        "tips": "Start with an acknowledgment phrase before giving your own view."
+      },
+      "conversation": {
+        "opening_question": "Nicely balanced! When is it hardest for you to disagree politely in real life?",
+        "follow_up_questions": [
+          "What usually helps you stay calm in a disagreement?",
+          "How do you know when it's worth continuing a disagreement versus letting it go?"
+        ]
+      },
+      "feedback_criteria": ["Acknowledgment phrase used first", "Clear own view with reason", "B sounds crisp", "Non-confrontational tone"],
+      "retry_instructions": "If it sounded blunt, retry adding an acknowledgment phrase before stating your disagreement."
+    },
+    {
+      "day": 26,
+      "week": 4,
+      "title": "Impromptu Speaking Practice",
+      "topic": "Thinking on your feet with minimal prep",
+      "objective": "Speak for 30-40 seconds on a random topic with only 10 seconds of preparation.",
+      "estimated_minutes": 15,
+      "warmup": {
+        "type": "quick_breath_warmup",
+        "instructions": "3 fast but full breaths (in through nose, out through mouth) to get alert and ready for a quick-response challenge.",
+        "duration_seconds": 45
+      },
+      "articulation_exercise": {
+        "focus_sound": "Full mixed drill",
+        "drill_text": "Thirty thoughtful strangers simply strolled through slippery, shimmering streets.",
+        "instructions": "Say slowly 3 times, then at normal speed, keeping every sound distinct even under time pressure.",
+        "duration_seconds": 90
+      },
+      "mini_lesson": {
+        "title": "The PREP Method for Impromptu Speaking",
+        "content": "When you only have seconds to prepare, a simple formula removes the guesswork: state your Point, give a Reason, an Example, then restate your Point.",
+        "key_points": [
+          "Point: your main idea in one sentence",
+          "Reason + Example: why, with a quick illustration",
+          "Point (again): restate it to close cleanly"
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "spontaneous",
+          "meaning": "performed or occurring without being planned in advance",
+          "pronunciation": "spon-TEY-nee-uhs",
+          "example_sentence": "Impromptu speaking builds your spontaneous speaking muscle.",
+          "similar_words": ["unplanned", "improvised"]
+        }
+      ],
+      "speaking_prompt": {
+        "prompt": "In just 10 seconds of prep, speak for 30-40 seconds on: 'Is it better to be early or to be flexible with time?' Use the PREP method.",
+        "prep_seconds": 10,
+        "response_seconds": 40,
+        "tips": "Don't aim for a perfect answer - aim for a structured one."
+      },
+      "conversation": {
+        "opening_question": "Impressive under time pressure! Was the PREP method helpful to lean on?",
+        "follow_up_questions": [
+          "What topic would be hardest for you to speak about with no prep?",
+          "How did this feel compared to Day 1's 30-second prep time?"
+        ]
+      },
+      "feedback_criteria": ["Point stated clearly", "Reason/example included", "Point restated at the end", "Composure under short prep time"],
+      "retry_instructions": "If you froze at the start, retry and say your Point sentence immediately, even before you know the rest."
+    },
+    {
+      "day": 27,
+      "week": 4,
+      "title": "Handling Interruptions Gracefully",
+      "topic": "Regaining the floor and staying composed",
+      "objective": "Practice calmly reclaiming your point after a simulated interruption.",
+      "estimated_minutes": 15,
+      "warmup": {
+        "type": "composure_warmup",
+        "instructions": "4 breaths (inhale 4s, exhale 6s), then say 'As I was saying...' in a calm, steady tone 3 times.",
+        "duration_seconds": 60
+      },
+      "articulation_exercise": {
+        "focus_sound": "Mixed drill under pressure",
+        "drill_text": "Freshly fried flounder flipped fast from the frying pan.",
+        "instructions": "Say slowly 3 times, then at normal speed, staying calm and unrushed even as speed increases.",
+        "duration_seconds": 90
+      },
+      "mini_lesson": {
+        "title": "Reclaiming the Floor Calmly",
+        "content": "Being interrupted happens to everyone. A calm bridging phrase lets you acknowledge the interruption briefly and return smoothly to your point, without sounding flustered or defensive.",
+        "key_points": [
+          "Acknowledge briefly: 'Good point -' or 'Sure -'",
+          "Bridge back: 'as I was saying...' / 'going back to...'",
+          "Finish your original point before responding to theirs, if appropriate"
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "bridge (phrase)",
+          "meaning": "a transitional phrase used to return to an earlier point",
+          "pronunciation": "brij",
+          "example_sentence": "Use a bridge phrase to smoothly return to your point.",
+          "similar_words": ["transition"]
+        }
+      ],
+      "speaking_prompt": {
+        "prompt": "Start explaining a simple opinion. Imagine being interrupted after one sentence, then use a bridge phrase to return to your point and finish it. 30-40 seconds total.",
+        "prep_seconds": 20,
+        "response_seconds": 40,
+        "tips": "Say the bridge phrase out loud, even though no one actually interrupted you."
+      },
+      "conversation": {
+        "opening_question": "Smooth recovery! How do you usually feel in the moment when someone interrupts you?",
+        "follow_up_questions": [
+          "Is there a situation where you tend to get interrupted the most?",
+          "What bridge phrase felt most natural to you?"
+        ]
+      },
+      "feedback_criteria": ["Bridge phrase used", "Calm, non-defensive tone", "Original point completed", "Mixed consonants clear"],
+      "retry_instructions": "If the tone sounded flustered, retry taking one slow breath before your bridge phrase."
+    },
+    {
+      "day": 28,
+      "week": 4,
+      "title": "Summarizing and Concluding Clearly",
+      "topic": "Wrap-up language and WH-cluster articulation",
+      "objective": "Summarize a longer idea into one clear, memorable closing sentence.",
+      "estimated_minutes": 15,
+      "warmup": {
+        "type": "breath_and_wh_warmup",
+        "instructions": "4 breaths, then say 'how much wood would a woodchuck chuck' slowly 3 times, rounding lips on each W.",
+        "duration_seconds": 60
+      },
+      "articulation_exercise": {
+        "focus_sound": "WH clusters",
+        "drill_text": "How much wood would a woodchuck chuck if a woodchuck could chuck wood?",
+        "instructions": "Say slowly 3 times, then at normal speed, keeping W sounds rounded and distinct.",
+        "duration_seconds": 90
+      },
+      "mini_lesson": {
+        "title": "Ending on a Strong Note",
+        "content": "A strong summary restates the core idea in fewer words than the original explanation, often using a 'so' or 'in short' signal, and ends with confidence rather than trailing off.",
+        "key_points": [
+          "Signal the summary: 'So, in short...' / 'The main takeaway is...'",
+          "Restate the core idea in one sentence, simplified",
+          "End on a confident, falling tone - don't trail off or add extra filler"
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "takeaway",
+          "meaning": "the main point or lesson to be remembered from something",
+          "pronunciation": "TEYK-uh-wey",
+          "example_sentence": "The main takeaway from today's lesson is to summarize clearly.",
+          "similar_words": ["key point", "conclusion"]
+        }
+      ],
+      "speaking_prompt": {
+        "prompt": "Explain something you learned this week for 30 seconds, then summarize it in one final sentence using a summary signal phrase.",
+        "prep_seconds": 25,
+        "response_seconds": 40,
+        "tips": "Write your one-sentence summary first, then build the explanation leading up to it."
+      },
+      "conversation": {
+        "opening_question": "Strong, confident close! Was that takeaway sentence planned before you started speaking?",
+        "follow_up_questions": [
+          "What's the hardest part about summarizing in the moment?",
+          "How is your closing tone different from your Day 1 recordings?"
+        ]
+      },
+      "feedback_criteria": ["Summary signal phrase used", "One-sentence takeaway present", "Confident ending tone (no trailing off)", "WH clusters clear"],
+      "retry_instructions": "If the ending trailed off, retry and practice saying just the final summary sentence on its own first, with a firm falling tone."
+    },
+    {
+      "day": 29,
+      "week": 4,
+      "title": "Full Mock Presentation",
+      "topic": "Combining structure, tone, and persuasion",
+      "objective": "Deliver a full 60-90 second presentation combining a hook, structured body, persuasive element, and clear summary.",
+      "estimated_minutes": 15,
+      "warmup": {
+        "type": "full_presentation_warmup",
+        "instructions": "Stand if possible. 4 breaths, 5 shoulder rolls, jaw and lip warm-ups, then run through one articulation drill of your choice from this week.",
+        "duration_seconds": 90
+      },
+      "articulation_exercise": {
+        "focus_sound": "Full mixed review",
+        "drill_text": "Strong, structured speakers strategically share thoughtful, persuasive perspectives.",
+        "instructions": "Say slowly 3 times, then at normal pace, with confident projection.",
+        "duration_seconds": 90
+      },
+      "mini_lesson": {
+        "title": "Bringing It All Together",
+        "content": "A full presentation uses nearly every skill from this program: a hook to open, clear structure in the body, persuasive claim-evidence-benefit if relevant, vocal variety throughout, and a confident summary to close.",
+        "key_points": [
+          "Open with a hook (question, fact, or short story)",
+          "Structure the body with 2-3 points, varying your tone for emphasis",
+          "Close with a clear, confident one-sentence summary"
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "polished",
+          "meaning": "refined and accomplished; smooth and professional in delivery",
+          "pronunciation": "POL-isht",
+          "example_sentence": "After 29 days of practice, her delivery sounds polished.",
+          "similar_words": ["refined", "accomplished"]
+        }
+      ],
+      "speaking_prompt": {
+        "prompt": "Deliver a 60-90 second presentation on any topic you choose, using a hook, 2-3 structured points, and a confident summary.",
+        "prep_seconds": 45,
+        "response_seconds": 90,
+        "tips": "Treat this like your showcase piece - use everything you've practiced this month."
+      },
+      "conversation": {
+        "opening_question": "That was a genuinely polished presentation. Which part are you proudest of?",
+        "follow_up_questions": [
+          "What's one thing you'd still like to refine further?",
+          "How does this compare to your very first recording on Day 1?"
+        ]
+      },
+      "feedback_criteria": ["Hook present", "Structured body (2-3 points)", "Vocal variety used", "Confident summary", "Overall clarity and pace"],
+      "retry_instructions": "If any section felt weak, retry just that section in isolation before recording the full presentation again."
+    },
+    {
+      "day": 30,
+      "week": 4,
+      "title": "30-Day Reflection & Graduation Challenge",
+      "topic": "Reflection on growth and a final freeform speaking challenge",
+      "objective": "Reflect on your 30-day journey and deliver a confident, unscripted 60-90 second closing talk.",
+      "estimated_minutes": 15,
+      "warmup": {
+        "type": "full_warmup",
+        "instructions": "4 breaths, jaw and lip warm-ups, then say Day 1's drill ('She sells seashells by the seashore') once, noticing how it feels now compared to Day 1.",
+        "duration_seconds": 75
+      },
+      "articulation_exercise": {
+        "focus_sound": "Full review (all major sounds)",
+        "drill_text": "Peter Piper picked a peck of pickled peppers while thirty-three thoughtful strangers simply strolled through slippery, shimmering streets.",
+        "instructions": "Say slowly once, then at full normal speed with confident projection, as a final articulation checkpoint.",
+        "duration_seconds": 90
+      },
+      "mini_lesson": {
+        "title": "Looking Back on 30 Days",
+        "content": "Real speaking improvement comes from consistent small reps, not one big breakthrough. Today is about noticing how far you've come and setting an intention for how you'll keep practicing after this program ends.",
+        "key_points": [
+          "Compare how today's recording feels to Day 1's",
+          "Name one specific skill that improved the most",
+          "Decide one way you'll keep practicing speaking after Day 30"
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "milestone",
+          "meaning": "a significant point or stage in development or progress",
+          "pronunciation": "MAHYL-stohn",
+          "example_sentence": "Finishing this 30-day program is a real milestone.",
+          "similar_words": ["achievement", "landmark"]
+        }
+      ],
+      "speaking_prompt": {
+        "prompt": "Reflect on your 30-day journey: what improved, what was hardest, and what's next for your speaking practice. 60-90 seconds, unscripted.",
+        "prep_seconds": 30,
+        "response_seconds": 90,
+        "tips": "Speak honestly - this one is for you, not for a perfect score."
+      },
+      "conversation": {
+        "opening_question": "Congratulations on completing all 30 days! What are you most proud of from this journey?",
+        "follow_up_questions": [
+          "What would you tell someone just starting Day 1?",
+          "How do you plan to keep practicing your speaking after today?"
+        ]
+      },
+      "feedback_criteria": ["Honest, reflective content", "Clear structure (past, present, future)", "Confident, composed delivery", "Overall 30-day clarity and pace comparison to Day 1"],
+      "retry_instructions": "There's no need to retry this one for perfection - if you'd like another take, just speak more freely and let it be a genuine reflection."
     }
   ]
 }
