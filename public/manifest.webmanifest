@@ -9,6 +9,12 @@
   "orientation": "portrait",
   "background_color": "#eef2ff",
   "theme_color": "#4f46e5",
+  "related_applications": [
+    {
+      "platform": "webapp",
+      "url": "https://speak30-daily.pages.dev/manifest.webmanifest"
+    }
+  ],
   "icons": [
     {
       "src": "/icons/icon-192.png",

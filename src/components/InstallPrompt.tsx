@@ -36,6 +36,18 @@ function isStandalone(): boolean {
   );
 }
 
+// Chrome on Android can tell us the app is already installed (needs the
+// related_applications entry in manifest.webmanifest).
+async function isAlreadyInstalled(): Promise<boolean> {
+  const nav = navigator as unknown as { getInstalledRelatedApps?: () => Promise<unknown[]> };
+  if (!nav.getInstalledRelatedApps) return false;
+  try {
+    return (await nav.getInstalledRelatedApps()).length > 0;
+  } catch {
+    return false;
+  }
+}
+
 function chromeIntentUrl(): string {
   const { host, pathname, search, href } = window.location;
   return `intent://${host}${pathname}${search}#Intent;scheme=https;package=com.android.chrome;S.browser_fallback_url=${encodeURIComponent(href)};end`;
@@ -56,7 +68,8 @@ export function InstallPrompt() {
   const [deferred, setDeferred] = useState<BeforeInstallPromptEvent | null>(null);
   const [platform, setPlatform] = useState<Platform | null>(null);
   const [inApp, setInApp] = useState(false);
-  const [installed, setInstalled] = useState(false);
+  const [installed, setInstalled] = useState(false); // running as the installed app
+  const [hasApp, setHasApp] = useState(false); // installed, but viewing in the browser
   const [showHelp, setShowHelp] = useState(false);
   const [dismissed, setDismissed] = useState(false);
 
@@ -65,6 +78,7 @@ export function InstallPrompt() {
     setInApp(isInAppBrowser());
     setInstalled(isStandalone());
     if (window.__speak30Install) setDeferred(window.__speak30Install);
+    void isAlreadyInstalled().then((yes) => yes && setHasApp(true));
 
     const onPrompt = (event: Event) => {
       event.preventDefault();
@@ -73,7 +87,7 @@ export function InstallPrompt() {
     const onInstalled = () => {
       window.__speak30Install = null;
       setDeferred(null);
-      setInstalled(true);
+      setHasApp(true);
     };
     window.addEventListener("beforeinstallprompt", onPrompt);
     window.addEventListener("appinstalled", onInstalled);
@@ -86,7 +100,7 @@ export function InstallPrompt() {
   // Phones always get the banner (with manual steps as a fallback); desktop only
   // when the browser offers a real install prompt.
   if (platform === null || installed || dismissed) return null;
-  if (platform === "other" && !deferred) return null;
+  if (platform === "other" && !deferred && !hasApp) return null;
 
   const handleInstall = async () => {
     if (deferred) {
@@ -94,7 +108,7 @@ export function InstallPrompt() {
       const choice = await deferred.userChoice;
       window.__speak30Install = null;
       setDeferred(null);
-      if (choice.outcome === "accepted") setInstalled(true);
+      if (choice.outcome === "accepted") setHasApp(true);
       return;
     }
     setShowHelp(true);
@@ -108,16 +122,24 @@ export function InstallPrompt() {
             S
           </div>
           <div className="min-w-0 flex-1">
-            <p className="text-sm font-semibold">Install Speak30</p>
-            <p className="text-xs text-muted-foreground">Keep it on your phone like a real app.</p>
+            <p className="text-sm font-semibold">
+              {hasApp ? "Speak30 is installed" : "Install Speak30"}
+            </p>
+            <p className="text-xs text-muted-foreground">
+              {hasApp
+                ? "Open it from your home screen or app list."
+                : "Keep it on your phone like a real app."}
+            </p>
           </div>
-          <button
-            onClick={handleInstall}
-            className="inline-flex shrink-0 items-center gap-1.5 rounded-full gradient-brand px-3.5 py-2 text-xs font-semibold text-brand-foreground shadow-md shadow-brand/30 transition-transform active:scale-95"
-          >
-            <Download className="size-3.5" />
-            Install
-          </button>
+          {!hasApp && (
+            <button
+              onClick={handleInstall}
+              className="inline-flex shrink-0 items-center gap-1.5 rounded-full gradient-brand px-3.5 py-2 text-xs font-semibold text-brand-foreground shadow-md shadow-brand/30 transition-transform active:scale-95"
+            >
+              <Download className="size-3.5" />
+              Install
+            </button>
+          )}
           <button
             onClick={() => setDismissed(true)}
             aria-label="Dismiss install prompt"
@@ -187,6 +209,10 @@ export function InstallPrompt() {
                     on your home screen.
                   </Step>
                 </ol>
+                <p className="mt-3 text-xs text-muted-foreground">
+                  If the menu shows <strong className="text-foreground">Open Speak30</strong>{" "}
+                  instead, the app is already installed — tap it, or find Speak30 in your app list.
+                </p>
               </>
             )}
             <button
