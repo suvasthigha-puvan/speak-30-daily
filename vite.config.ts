@@ -21,7 +21,7 @@ export default defineConfig({
         injectRegister: null, // registration happens only in src/lib/pwa-register.ts
         filename: "sw.js",
         // must match nitro's public dir: dist on Cloudflare Pages, .output/public otherwise
-        outDir: process.env.CF_PAGES ? "dist" : ".output/public",
+        outDir: process.env["CF_PAGES"] ? "dist" : ".output/public",
         manifest: false, // we serve public/manifest.webmanifest ourselves
         devOptions: { enabled: false }, // never emit a SW in dev/preview
         workbox: {
